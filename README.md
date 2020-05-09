@@ -5,7 +5,7 @@ Project site for my github projects, beginning with the Udacity Nanodegree ( spr
 About my programming work and to write in English.
 
 HowTodo post blog: 
-- `Touch` file in \_post folder as format :  YYYY-MM-DD-title-of-my-post.md
+- `Touch` file in \_post/ folder as format :  YYYY-MM-DD-title-of-my-post.md
 ```
 ----
 layout: post
