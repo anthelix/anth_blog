@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stephanie Chatagner, Why I never lose"
+title: "Stephanie Chatagner, Back to basics"
 date: 2020-05-12
 ---
 
