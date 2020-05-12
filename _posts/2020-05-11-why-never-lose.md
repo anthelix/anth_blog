@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Stephanie Chatagner, Why I never lose"
-date: 2020-05-10
+date: 2020-05-11
 ---
 
 > “I never lose, I either win or I learn”     Nelson Mandela   
