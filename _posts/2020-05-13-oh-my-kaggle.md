@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stephanie Chatagner, Oh my Kaggles"
+title: "Stephanie Chatagner, Oh my Kaggle"
 date: 2020-05-13
 ---
 
@@ -14,6 +14,9 @@ I find the datasets :
 - Airline Delay and Cancellation Data: more data about flights
 
 I limit the loading of files to 1000 lines while exploring with Python.
+
+I read "La Logique pas a pas"(Logic step by step) by Jacques Duparc, The theory of sets more specifically. I love that book! 
+I learn about `df.read_` to load files. 
  
 Tomorrow, I will work about data clean... or not!     
 Step by step, ferociously!
