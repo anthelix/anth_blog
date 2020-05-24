@@ -19,4 +19,4 @@ I learn : `%who_ls Dataframe` in python cell
 I refresh my [PEP8](https://www.python.org/dev/peps/pep-0008/) with this web page ;)    
 
 Tomorrow, I will work with dimension table.    
-Step by step, ferociously!
+So, step by step!

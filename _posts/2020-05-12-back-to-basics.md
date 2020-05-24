@@ -15,4 +15,4 @@ Cube: It's OLAP. One dimension of the cube represent a feature, an angle of the 
 c/c: OLTP’s priority is maintaining data integrity and processing a large number of transactions in a short time and OLAP’s priority is query speed, and transactions tend to be batched and at regular intervals (ETL Jobs).    
 
 Tomorrow, I will work about data clean.    
-Step by step, ferociously!
+So, step by step!s

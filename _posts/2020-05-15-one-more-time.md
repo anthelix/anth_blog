@@ -18,4 +18,4 @@ By taking a value("US-HI"), we find it if it exists with
 And don't forget `%xdel` to delete unnecessary Dataframes. 
 
 Tomorrow, I will work about data clean... One more time!   
-Step by step, ferociously!
+So, step by step!
