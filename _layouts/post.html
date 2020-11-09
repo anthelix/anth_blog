@@ -1,9 +1,9 @@
 ---
 layout: default
+permalink: /blog/:year/:month/:day/:title
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-  {{ content }}
-</div>
+<h2>{{ page.title }}</h2>
+<time>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
+
+{{ content }}

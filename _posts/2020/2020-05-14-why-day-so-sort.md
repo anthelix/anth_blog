@@ -2,6 +2,8 @@
 layout: post
 title: "Stephanie Chatagner, Why day are so short?"
 date: 2020-05-14
+categories: blog update
+permalink: /:categories/:day/:month/:title.html
 ---
 
 Well. Five minutes ago it was 11:00 and now it's 1:30... 

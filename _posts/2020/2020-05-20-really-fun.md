@@ -2,6 +2,8 @@
 layout: post
 title: "Stephanie Chatagner, You seem really fun"
 date: 2020-05-20
+categories: blog update
+permalink: /:categories/:day/:month/:title.html
 ---
 
 Well. 

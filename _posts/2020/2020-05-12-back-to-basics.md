@@ -2,6 +2,8 @@
 layout: post
 title: "Stephanie Chatagner, Back to basics"
 date: 2020-05-12
+categories: blog update
+permalink: /:categories/:day/:month/:title.html
 ---
 
 Well. Since January, many notions have been addressed. Each chapter has brought its share of theory and practical exercises.   
