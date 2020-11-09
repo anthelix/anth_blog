@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Home
-permalink: /home/
 ---
 
 <div class="blurb">
