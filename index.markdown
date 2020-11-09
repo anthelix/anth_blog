@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="blurb">
-	<h1>Hi there, I'm Stephanie Chatagner!</h1>
-	<p>I like to learn, code, make chocolate cake and  <em>Paris coffee terrace</em> ...Here, I propose you to follow through my projects, my reconversion in computer science. <a href="/about">Read more about me..</a></p>
-</div><!-- /.blurb -->
+
+  <h2>Main Page</h2>
+
+  Main content goes here. 
