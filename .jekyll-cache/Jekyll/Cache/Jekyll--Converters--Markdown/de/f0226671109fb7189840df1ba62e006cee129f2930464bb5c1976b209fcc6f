@@ -1,0 +1,17 @@
+I"G<p>Well. Five minutes ago it was 11:00 and now it’s 1:30… 
+After finding additional datasets, I explored today the datasets I have at my disposal. After doing a quick dataset scan and a brief description, I started to explore the dataset that I think is central.</p>
+<h5 id="data-immigration">Data Immigration</h5>
+<p>These are data from the I-94 Form (Arrival/Departure Record) to foreign visitors on their arrival in US.
+The data is essentially numeric (float) and provides factual information about the person and their arrival and departure. The few objects are dates or codes of airport, gender, flights, etc… 
+A data file is added every month to the data set, storage format sas7bdat, a single month may contain several million records. 
+<a href="https://travel.trade.gov/view/m-2019-O-001/index.html">here</a>, an example of statistics from this dataset.</p>
+
+<p>From this dataset as a fact table, we can build a datawarehouse. With the other datasets or dimensions, we can then locate the intersection of the dimensions and display them. It will then be possible to analyze and compare the data in different ways. So, OLAP!
+With OLAP, we have accessible (business-related) data, understandable data, aggregated data, a simple and flexible query mode, a fast and efficient system and a decision aid.</p>
+
+<p>I learn : <code class="language-plaintext highlighter-rouge">%who_ls Dataframe</code> in python cell <br />
+I refresh my <a href="https://www.python.org/dev/peps/pep-0008/">PEP8</a> with this web page ;)</p>
+
+<p>Tomorrow, I will work with dimension table.  <br />
+So, step by step!</p>
+:ET

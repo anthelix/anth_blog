@@ -1,0 +1,8 @@
+I"h<p>Well. Five minutes ago it was 11:00 and now it’s 1:30… 
+After finding additional datasets, I explored today the datasets I have at my disposal. After doing a quick dataset scan and a brief description, I started to explore the dataset that I think is central.</p>
+<h5 id="data-immigration">Data Immigration</h5>
+<p>These are data from the I-94 Form (Arrival/Departure Record) to foreign visitors on their arrival in US.
+The data is essentially numeric (float) and provides factual information about the person and their arrival and departure. The few objects are dates or codes of airport, gender, flights, etc… 
+A data file is added every month to the data set, storage format sas7bdat, a single month may contain several million records. 
+<a href="https://travel.trade.gov/view/m-2019-O-001/index.html">here</a>, an example of statistics from this dataset.</p>
+:ET

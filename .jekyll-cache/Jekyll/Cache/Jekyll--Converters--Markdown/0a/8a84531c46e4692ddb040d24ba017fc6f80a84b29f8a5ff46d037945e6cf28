@@ -1,0 +1,8 @@
+I"�<p>Well. Since January, many notions have been addressed. Each chapter has brought its share of theory and practical exercises. <br />
+First OLAP vs OLTP. <br />
+Online Transaction Processing as OLTP and Online Analytical Processing, OLAP. <br />
+A database store data. Easy. Data is s more complicated.<br />
+OLTP is data processing, with transaction day to day. Design is normalised and written to the database as quickly as possible. OLTP is atomic, a transaction succeds or fail, no intermediate. So, data update and queries are fast, and nice with the system ressources. But the data format is different in these databases. Make join between db is difficult and ask performance to the system. OLTP is the “who” question. Fast. Direct.   <br />
+OLAP is data analytics. Databases are denormalized and answer some complicated questions “How”, “What” with aggregation “sum” “average” and join to other tables. Allow high volume of data, the queries are slow. We want make this analyses at regular time intervals. 
+Cube: It’s OLAP. One dimension of the cube represent a feature, an angle of the data. The Cube is structured and be manipuled acroos dimensions, sliced (exclude month, exclude products). Datawarehouse are built around the Cubes.</p>
+:ET

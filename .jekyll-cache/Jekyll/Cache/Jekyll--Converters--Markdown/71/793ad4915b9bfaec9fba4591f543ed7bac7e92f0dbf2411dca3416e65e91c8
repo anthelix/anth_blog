@@ -1,0 +1,5 @@
+I"W<p>With Pandas, exploring datasets is a game.   <br />
+First I copy my Dataframe. That way I always have a clean copy. 
+I start slowly with <code class="language-plaintext highlighter-rouge">pd.info()</code>, <code class="language-plaintext highlighter-rouge">pd.describe()</code> and finally a <code class="language-plaintext highlighter-rouge">pd.head()</code>. With <code class="language-plaintext highlighter-rouge">pd.shape</code> I stay on Python or switch to Spark and that’s another story.
+Let’s go a bit further, <code class="language-plaintext highlighter-rouge">df.nunique()</code> to count the number of unique values in a column and then <code class="language-plaintext highlighter-rouge">df[df.duplicated(keep=False)].sort_values("one_value")</code>. I look for duplicate rows, I want them all sorted and grouped by “one value”.</p>
+:ET
