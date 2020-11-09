@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Stephanie Chatagner, Hacker time
 ---
 <div class="blurb">
 	<h1>Hi there, I'm Stephanie Chatagner!</h1>
