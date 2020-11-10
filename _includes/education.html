@@ -1,0 +1,28 @@
+<div class="col-sm-12 col-md-6 col-education">
+    <div class="education">
+        <div class="section-title">
+            <h3>{{ site.education }}</h3>
+        </div>
+                {% for post in site.posts %}
+                    {% if post.category == "education" %}
+                        <div class="exp">
+                            <div class="exp-header">
+                                <h4>
+                                    {{ post.institution }}
+                                </h4>
+                                <h6>
+                                    {{ post.degree }}
+                                </h6>
+                                <h6>
+                                    <i class="fa fa-graduation-cap"></i>
+                                    {{ post.duration }}
+                                </h6>
+                                <p>
+                                    {{ post.content }}
+                                </p>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor%}
+    </div>
+</div>

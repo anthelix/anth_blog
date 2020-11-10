@@ -20,15 +20,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# phone: 555-not-a-real-number # Your phone number
+# dob: 12.12.2012 # Your date of birth
+image: linux.jpg
+# twitter_handle: # Your twitter handle
+
 name: Stephanie Chatagner
 email: sdulou@free.fr
-title_job: Data Analyst
-tagline: Personal cover page for this test user. # Appears on the sidebar bellow your name.
+
+tagline: Personal cover page # Appears on the sidebar bellow your name.
 twitter_username: avoir
 github_username: anthelix
 address: Chatillon
 linkedin_url: https://www.linkedin.com/in/stephaniechatagner/ # Your linkedin public url
 
+title_job: Data Analyst
 abstract: > # Here you should write a brief summary about yourself.
   Data Analyst enthousiasmée  par le traitement et le nettoyage des données, une expérience métier dans le secteur médical plus particulièrement en Orthopédie, Logistique Médicale et Hygiène, une affinité pour la data et le data cleansing, des projets en data engineering, des projets de data analytique.  Compétences en Python, Tableau, SQL, Linux, Pyspark
 description: > # Description for site meta, used by search engines.

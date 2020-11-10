@@ -1,0 +1,44 @@
+
+{% include head.html %}
+
+  <aside>
+    <div class="container">
+      <nav>
+        <ul>
+          {% for page in site.pages %} {% if page.title %}
+          <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          {% endif %} {% endfor %}
+          <li><a href="{{ "/log" | prepend: site.baseurl }}">Blog</a></li>
+          <li><a href="{{ "/cv" | prepend: site.baseurl }}">Resume</a></li>
+        </ul>
+        </li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  
+
+
+
+  <body>
+    <div id="wrapper">
+      {% include sidebar.html %}
+      <div id="content-wrapper">
+        <div class="container-fluid content-core">
+          {% include intro.html %}
+          <div class="row">
+
+            {% include education.html %}
+          </div>
+          <div class="row">
+
+            {% include languages.html %}
+          </div>
+          {% include projects.html %}
+
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

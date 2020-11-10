@@ -9,6 +9,73 @@ $heading-font-color: #425469;
 $light: #DBDBDB;
 $header: #121426;
 
+$theme-bar-bg: $link-hover-color;
+$theme-color: $light;
+$theme-content-bg: $main;
+$theme-a: $header;
+$theme-a-hover: $font-color;
+$theme-accent: $link-hover-color;
+
+
+#bar {
+  background-color: $theme-a;
+  color: $link-color;
+  a {
+    color: $heading-font-color;
+    &:hover {
+      color: $link-color
+    }
+  }
+}
+#wrapper {
+  background-color: $theme-content-bg;
+}
+#content-wrapper {
+  color: $theme-bar-bg;
+  .exp {
+    &:after {
+      background: $theme-accent;
+      border: 3px solid $theme-content-bg;
+    }
+    h6 {
+      color: darken($theme-color, 30%);
+    }
+  }
+  .skills {
+    .dot {
+      color: $theme-accent;
+    }
+    .skill-level {
+      background-color: $theme-color;
+      .dot-position {
+        background-color: $theme-accent;
+      }
+    }
+  }
+  .project {
+    a {
+      color: $theme-a;
+      &:hover {
+        color: $theme-a-hover;
+      }
+    }
+  }
+  .timeline {
+    &:before {
+      background: $theme-color; /* Old browsers */
+      background: -moz-linear-gradient(top,  $theme-color 1%, $theme-color 75%, $theme-content-bg 100%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, $theme-color), color-stop(75%, $theme-color), color-stop(100%, $theme-content-bg)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top,  $theme-color 1%, $theme-color 75%, $theme-content-bg 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top,  $theme-color 1%, $theme-color 75%, $theme-content-bg 100%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(top,  $theme-color 1%, $theme-color 75%, $theme-content-bg 100%); /* IE10+ */
+      background: linear-gradient(to bottom,  $theme-color 1%, $theme-color 75%, $theme-content-bg 100%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$theme-1-color', endColorstr='$theme-1-content-bg',GradientType=0 ); /* IE6-9 */
+    }
+  }
+}
+
+
+
 *,
 *::before,
 *::after {
@@ -16,3 +83,4 @@ $header: #121426;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
