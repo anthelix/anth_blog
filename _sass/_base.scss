@@ -56,7 +56,13 @@ $theme-accent: $link-hover-color;
     a {
       color: $theme-a;
       &:hover {
-        color: $theme-a-hover;
+        color: #F7C855;
+      }
+      &:active{
+        color:#F69A07;
+      }
+      &:visted{
+        color:#121426
       }
     }
   }
