@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postlog
 title: "Stephanie Chatagner, One more time"
 date: 2020-05-15
 categories: blog update

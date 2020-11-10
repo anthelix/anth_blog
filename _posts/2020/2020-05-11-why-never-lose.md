@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postlog
 title: "Stephanie Chatagner, Why I never lose"
 date: 2020-05-11
 categories: blog update

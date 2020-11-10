@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postlog
 title: "Stephanie Chatagner, Back to basics"
 date: 2020-05-12
 categories: blog update

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postlog
 title: "Stephanie Chatagner, Launches Site"
 date: 2020-05-09
 categories: blog update

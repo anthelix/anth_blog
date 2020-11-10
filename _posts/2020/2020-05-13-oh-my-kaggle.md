@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postlog
 title: "Stephanie Chatagner, Oh my Kaggle"
 date: 2020-05-13
 categories: blog update
