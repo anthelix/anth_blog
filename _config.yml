@@ -28,7 +28,7 @@ image: linux.jpg
 name: Stephanie Chatagner
 email:
 
-tagline: Personal cover page # Appears on the sidebar bellow your name.
+tagline: Personal cover page test # Appears on the sidebar bellow your name.
 twitter_username: avoir
 github_username: anthelix
 address: Chatillon
