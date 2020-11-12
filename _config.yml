@@ -44,12 +44,21 @@ title: Stephanie Chatagner's Blog
 description: >- # this means to ignore newlines until "baseurl:"
   Just a blog for my code.
   
-baseurl: "/anth_blog" # the subpath of your site, e.g. /blog
-url: "https://anthelix.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "/anth_blog" # the subpath of your site, e.g. /blog
+#url: "https://anthelix.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-#baseurl: "" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+defaults:
+  - scope:
+      path: "_posts/news"
+    values:
+      type: "news"
+  - scope:
+      path: "_posts/work"
+    values:
+      type: "work"
 
 # Build settings
 # theme: minima

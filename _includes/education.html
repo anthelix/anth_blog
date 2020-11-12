@@ -1,10 +1,10 @@
 <div class="col-sm-12 col-md-6 col-education">
     <div class="education">
         <div class="section-title">
-            <h3>{{ site.education }}</h3>
+            <h2>{{ site.education }}</h2>
         </div>
                 {% for post in site.posts %}
-                    {% if post.category == "education" %}
+                    {% if post.item == "education" %}
                         <div class="exp">
                             <div class="exp-header">
                                 <h4>

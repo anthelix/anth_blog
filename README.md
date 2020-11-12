@@ -35,7 +35,7 @@ HowTodo
   pusblished: true
   layout: post
   title: "Tuto"
-  category: jekyll
+  categories: jekyll
   ---
   #### titre en H4
   ```

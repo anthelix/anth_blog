@@ -65,6 +65,15 @@ $theme-accent: $link-hover-color;
         color:#121426
       }
     }
+    h4 {
+      margin-bottom: 0em;
+    }
+    p { margin: 0;
+    }
+    li {
+      list-style-image: url("/favicon.ico");
+      opacity:0.6;
+    }
   }
   .timeline {
     &:before {

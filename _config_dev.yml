@@ -20,14 +20,37 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# phone: 555-not-a-real-number # Your phone number
+# dob: 12.12.2012 # Your date of birth
+image: linux.jpg
+# twitter_handle: # Your twitter handle
+
+name: Stephanie Chatagner
+email:
+
+tagline: Personal cover page # Appears on the sidebar bellow your name.
+twitter_username: avoir
+github_username: anthelix
+address: Chatillon
+linkedin_url: https://www.linkedin.com/in/stephaniechatagner/ # Your linkedin public url
+
+title_job: Data Analyst
+abstract: > # Here you should write a brief summary about yourself.
+  Data Analyst enthousiasmée  par le traitement et le nettoyage des données, une expérience métier dans le secteur médical plus particulièrement en Orthopédie, Logistique Médicale et Hygiène, une affinité pour la data et le data cleansing, des projets en data engineering, des projets de data analytique.  Compétences en Python, Tableau, SQL, Linux, Pyspark
+description: > # Description for site meta, used by search engines.
+  Personal cover page for this test user.
 title: Stephanie Chatagner's Blog
-email: "sdulou@free.fr"
+
 description: >- # this means to ignore newlines until "baseurl:"
   Just a blog for my code.
+  
+#baseurl: "/anth_blog" # the subpath of your site, e.g. /blog
+#url: "https://anthelix.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: 
-github_username:  anthelix
+
+
 # Build settings
 # theme: minima
 # plugins:
@@ -37,6 +60,18 @@ sass:
 include: ['_pages']
 kramdown:
   input: GFM
+
+# Localization
+projects: Personal projects
+skills: Skills
+languages: Language
+hobbies: Hobbies
+experience: Experience
+education: Education
+email_text: Email
+phone_text: Phone
+dob_text: Date of birth
+address_text: Address
 
 
 # Exclude from processing.

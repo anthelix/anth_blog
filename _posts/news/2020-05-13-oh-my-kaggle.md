@@ -3,7 +3,7 @@ layout: postlog
 title: "Stephanie Chatagner, Oh my Kaggle"
 date: 2020-05-13
 categories: blog update
-permalink: /:categories/:day/:month/:title.html
+permalink: /:categories/:year/:month/:day/:title.html
 ---
 
 Well. I searched for data to get additional information to the data I already have. Kaggle's datasets are countless. The tabs in my browser are cumulative when reading the community and the different challenges. 

@@ -3,7 +3,7 @@ layout: postlog
 title: "Stephanie Chatagner, You seem really fun"
 date: 2020-05-20
 categories: blog update
-permalink: /:categories/:day/:month/:title.html
+permalink: /:categories/:year/:month/:day/:title.html
 ---
 
 Well. 

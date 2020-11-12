@@ -3,7 +3,7 @@ layout: postlog
 title: "Stephanie Chatagner, How I choose a topic"
 date: 2020-05-10
 categories: blog update
-permalink: /:categories/:day/:month/:title.html
+permalink: /:categories/:year/:month/:day/:title.html
 ---
 
 Well. Choose a topic. The questions are endless when you don't have a business problem or a particular social topic. There is the covid at the moment... but no. I like the theme of immigration to the United States a lot. I find fascinating the construction of countries such as the USA or the island. Young countries that have not known the Middle Ages. 

@@ -1,13 +1,20 @@
 <div class="projects-wrapper">
     <div class="projects">
         <div class="section-title">
-            <h3>{{ site.projects}}</h3>
+            <h2>{{ site.projects}}</h2>
         </div>
         <div class="section-wrapper">
             <div class="row">
-                {% for post in site.posts %}
-                    {% if post.category == "project" %}
+            {% assign posts = site.posts | where:"type", "work" %}
+            {% assign projet = posts |where:"item","project" %}
+            {% assign postsByYear = projet | group_by_exp:"post", "post.date | date: '%Y'" %}
+                {% for year in postsByYear %}
+                <h3>{{ year.name }}</h3>
+                  {% for post in year.items %}
+                    {% if post.item == "project" %}
+                        <ul>
                         <div class="project col-xs-12 col-sm-6 col-md-6">
+                            <li>
                             <div class="project-header">
                                 <h4>
                                     {{ post.name }}
@@ -20,9 +27,12 @@
                                 <p>
                                     {{ post.content }}
                                 </p>
+                            </li>
                             </div>
+                        </ul>
                         </div>
                     {% endif %}
+                  {% endfor %}  
                 {% endfor %}
             </div>
         </div>
