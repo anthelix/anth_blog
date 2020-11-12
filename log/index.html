@@ -1,10 +1,11 @@
 ---
 layout: template
 ---
-	<h1>ICI</h1>
+	<h1>{{ page.title }}</h1>
 	<ul class="posts">
 
 	  {% for post in site.posts %}
+	  <h3>ICI</h3>
 		{% if post.layout == "postlog" %}
 	    	<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 		{% endif %}
