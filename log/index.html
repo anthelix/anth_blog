@@ -5,8 +5,10 @@ layout: template
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	  <h3>ICI</h3>
+
 		{% if post.layout == "postlog" %}
+			<h3>ICI</h3>
+			<h3>{{ post.url }}</h3>
 	    	<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 		{% endif %}
 	  {% endfor %}
