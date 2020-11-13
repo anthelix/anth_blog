@@ -11,6 +11,7 @@ permalink: /:categories/:year/:month/:day/:title.html
 Projet individuel sur les data d'Arsenal Chirurgical, plateforme web de gestion de prêts et de location de dispositifs Médicaux.
 - Extraction, Transformation des données
 - Data Cleansing
-- Visualisation
+- Visualisation   
+
 Tools: 
 PostgrSql, Python, Tableau Software
