@@ -1,0 +1,39 @@
+<div class="projects-wrapper">
+    <div class="projects">
+        <div class="section-title">
+            <h2>{{ site.courses }}</h2>
+        </div>
+        <div class="section-wrapper">
+            <div class="row">
+            {% assign posts = site.posts | where:"type", "work" %}
+            {% assign projet = posts |where:"item","course" %}
+            {% assign postsByYear = projet | group_by_exp:"post", "post.date | date: '%Y'" %}
+                {% for year in postsByYear %}
+                <h3>{{ year.name }}</h3>
+                  {% for post in year.items %}
+                    {% if post.item == "course" %}
+                        <ul>
+                            <div class="project col-xs-12 col-sm-6 col-md-6">
+                                <li>
+                                    <div class="project-header">
+                                        <h4>{{ post.date | date: "%B" }} - {{ post.school }} - {{ post.name }}
+                                            {% if post.repo and post.repo_url %}
+                                            <a href="{{ post.repo_url }}" target="_blank" title="{{ post.repo }}">
+                                                <i class=" fa fa-{{ post.repo }}"></i>
+                                            </a>
+                                            {% endif %}
+                                        </h4>
+                                        <h6>
+                                            {{ post.content }}
+                                        </h6>
+                                    </div>
+                                </li>
+                            </div>
+                        </ul>
+                    {% endif %}
+                  {% endfor %}  
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
