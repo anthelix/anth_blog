@@ -33,7 +33,7 @@ $theme-accent: $link-hover-color;
 #content-wrapper {
   color: $theme-bar-bg;
   .intro h1{
-    color: red;
+    color: $font-color;
   }
   .education {
     h4 {
