@@ -32,6 +32,9 @@ $theme-accent: $link-hover-color;
 }
 #content-wrapper {
   color: $theme-bar-bg;
+  .intro h1{
+    color: $font-color;
+  }
   .exp {
     &:after {
       background: $theme-accent;
