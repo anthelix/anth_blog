@@ -2,7 +2,7 @@
 layout: postlog
 title: "Stephanie Chatagner, Back to Health"
 date: 2020-08-15
-categories: blog update
+categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
 ---
 

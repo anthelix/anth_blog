@@ -1,6 +1,6 @@
 # Welcome to Jekyll!
 
-# bundle exec jekyll serve      
+## bundle exec jekyll serve      
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
@@ -49,6 +49,8 @@ url: "https://anthelix.github.io" # the base hostname & protocol for your site, 
 
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+permalink: /:basename
 
 defaults:
   - scope:
