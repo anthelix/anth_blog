@@ -50,7 +50,7 @@ url: "https://anthelix.github.io" # the base hostname & protocol for your site, 
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-#permalink: /:basename
+permalink: /:basename
 
 defaults:
   - scope:
