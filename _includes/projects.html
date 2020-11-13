@@ -13,24 +13,25 @@
                   {% for post in year.items %}
                     {% if post.item == "project" %}
                         <ul>
-                        <div class="project col-xs-12 col-sm-6 col-md-6">
-                            <li>
-                            <div class="project-header">
-                                <h4>
-                                    {{ post.name }}
-                                    {% if post.repo and post.repo_url %}
-                                    <a href="{{ post.repo_url }}" target="_blank" title="{{ post.repo }}">
-                                        <i class=" fa fa-{{ post.repo }}"></i>
-                                    </a>
-                                    {% endif %}
-                                </h4>
-                                <p>
-                                    {{ post.content }}
-                                </p>
-                            </li>
+                            <div class="project col-xs-12 col-sm-6 col-md-6">
+                                <li>
+                                    <div class="project-header">
+                                        <h4>
+                                            {{ post.name }}
+                                            {% if post.repo and post.repo_url %}
+                                            <a href="{{ post.repo_url }}" target="_blank" title="{{ post.repo }}">
+                                                <i class=" fa fa-{{ post.repo }}"></i>
+                                            </a>
+                                            {% endif %}
+                                        </h4>
+                                        <h6>{{ post.date | date: "%B" }}</h6>
+                                        <p>
+                                            {{ post.content }}
+                                        </p>
+                                    </div>
+                                </li>
                             </div>
                         </ul>
-                        </div>
                     {% endif %}
                   {% endfor %}  
                 {% endfor %}

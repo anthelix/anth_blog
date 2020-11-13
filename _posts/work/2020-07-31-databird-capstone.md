@@ -11,6 +11,6 @@ permalink: /:categories/:year/:month/:day/:title.html
 Projet Freelance pour Arsenal Chirurgical, plateforme web de gestion de prêts et de location de dispositifs Médicaux.
 - Extraction, Transformation des données
 - Data Cleansing
-- Visualisation et présentation orale  
-Tools: 
-Excel, Sql, Python, Tableau Software
+- Visualisation et présentation orale    
+
+Tools:  Excel, Sql, Python, Tableau Software

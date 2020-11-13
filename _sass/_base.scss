@@ -32,6 +32,10 @@ $theme-accent: $link-hover-color;
 }
 #content-wrapper {
   color: $theme-bar-bg;
+  h2 {
+    margin-top: 3rem;
+    margin-bottom: 0.8rem;
+  }
   .intro h1{
     color: $font-color;
   }
@@ -81,11 +85,17 @@ $theme-accent: $link-hover-color;
     h4 {
       margin-bottom: 0em;
     }
-    p { margin: 0;
+    h6 {
+      margin: 0em 0em 1em 1em;
+    }
+    p { margin: 0em;
     }
     li {
       list-style-image: url("https://anthelix.github.io/anth_blog/favicon.ico");
       opacity:0.6;
+    }
+    li ul li {
+      list-style: '| ';
     }
   }
   .timeline {
