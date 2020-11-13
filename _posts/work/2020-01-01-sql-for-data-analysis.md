@@ -1,14 +1,13 @@
 ---
 item: "course"
-name: Spark
+name: SQL for Data Analysis
 school: Udacity
 repo: 
-date: 2020-03-01
+date: 2020-01-01
 repo_url: 
 categories: cv
 permalink: /:categories/:year/:month/:day/:title.html
 ---
 
-Course About ... the Big Data Ecosystem and Data Wran
+Course About ... SQL for working with database. 
 
-gling

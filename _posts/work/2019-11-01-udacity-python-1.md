@@ -1,14 +1,12 @@
 ---
 item: "course"
-name: Spark
+name: Introduction to Python Programming
 school: Udacity
 repo: 
-date: 2020-03-01
+date: 2019-11-01
 repo_url: 
 categories: cv
 permalink: /:categories/:year/:month/:day/:title.html
 ---
 
-Course About ... the Big Data Ecosystem and Data Wran
-
-gling
+Course About ... the basics of programming through Python.
