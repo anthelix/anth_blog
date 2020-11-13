@@ -35,6 +35,16 @@ $theme-accent: $link-hover-color;
   .intro h1{
     color: $font-color;
   }
+  .education {
+    h4 {
+      margin-bottom: 0em;
+    }
+    h6 {
+      margin :0em;
+      }
+    p {margin: 0em 1em 0em, 1em;
+    }
+  }
   .exp {
     &:after {
       background: $theme-accent;
