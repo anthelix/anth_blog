@@ -9,6 +9,4 @@ categories: cv
 permalink: /:categories/:year/:month/:day/:title.html
 ---
 
-Course About ... the Big Data Ecosystem and Data Wran
-
-gling
+Course About ... the Big Data Ecosystem and Data Wrangling
