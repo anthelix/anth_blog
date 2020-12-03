@@ -23,16 +23,18 @@
 # phone: 555-not-a-real-number # Your phone number
 # dob: 12.12.2012 # Your date of birth
 image: linux.jpg
-# twitter_handle: # Your twitter handle
+twitter_handle: @SteCha17
+tableau_username: chatagner
 
 name: Stephanie Chatagner
 email:
 
 tagline: Personal cover page # Appears on the sidebar bellow your name.
-twitter_username: avoir
+twitter_username: SteCha17
 github_username: anthelix
 address: Chatillon
 linkedin_url: https://www.linkedin.com/in/stephaniechatagner/ # Your linkedin public url
+tableau_url: https://public.tableau.com/profile/chatagner#! # tableau public url
 
 title_job: Data Analyst
 abstract: > # Here you should write a brief summary about yourself.
