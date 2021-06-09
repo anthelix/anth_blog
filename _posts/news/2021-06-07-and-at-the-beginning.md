@@ -1,6 +1,6 @@
 ---
 layout: postlog
-title: "Stephanie Chatagner, And At The Beginninng"
+title: "Stephanie Chatagner, At The Beginninngm, Types"
 date: 2021-06-07
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
