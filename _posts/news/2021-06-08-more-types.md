@@ -7,7 +7,7 @@ permalink: /:categories/:year/:month/:day/:title.html
 ---
 
 Well. 
-Another type of data is the exact numerical values with **integer**. Integer are tinyint, smallint, int, and bigint. It's better to use the smallest type. 
+Another type of data is the exact numerical values with **integer**. Integer are tinyint, smallint, int, and bigint. It's better to use the smallest type.      
 |Type     |Range                                                                     |Storage                               |     
 |tinyint  |0 <--> 255                                                                |1 byte(octet), ex: human age          |
 |smallint |-2^15 <--> 2^15-1 (-32 768, 32 767)                                       |2 bytes ex: # students in school      |
