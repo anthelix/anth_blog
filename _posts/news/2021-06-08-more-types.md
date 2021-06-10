@@ -9,9 +9,9 @@ permalink: /:categories/:year/:month/:day/:title.html
 Well. 
 Another type of data is the exact numerical values with **integer**. Integer are tinyint, smallint, int, and bigint. It's better to use the smallest type.
 <style>
-.tablelines table , .tablelines td {
-        border: .5px solid black;
-        }, .tablelines th 
+.tablelines table {
+        border: 1px solid black;
+        }, .tablelines td , .tablelines th 
 </style>
 |Type     |Range                                                                     |Storage                               | 
 |-|-|-|
