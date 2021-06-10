@@ -10,14 +10,6 @@ Well.
 Another type of data is the exact numerical values with **integer**. Integer are tinyint, smallint, int, and bigint. It's better to use the smallest type.
 
 
-You need to apply some styling to the tables code, for example to apply the css class tablelines you can use inline attributes {: .tablelines} :
-
-<style>
-.tablelines table, .tablelines td, .tablelines th {
-        border: 1px solid black;
-        }
-</style>
-
 |Type     |Range                                                                     |Storage                               | 
 |-|-|-|
 |tinyint  |0 <--> 255                                                                |1 byte(octet), ex: human age          |
