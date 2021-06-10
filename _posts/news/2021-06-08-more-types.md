@@ -10,7 +10,7 @@ Well.
 Another type of data is the exact numerical values with **integer**. Integer are tinyint, smallint, int, and bigint. It's better to use the smallest type.
 <style>
 .tablelines table, .tablelines td, .tablelines th {
-        border: 1px solid black;
+        border: .5px solid black;
         }
 </style>
 |Type     |Range                                                                     |Storage                               | 
