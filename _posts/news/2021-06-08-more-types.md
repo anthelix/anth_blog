@@ -6,7 +6,7 @@ categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
 ---
 
-**Well.**
+Well.
 Another type of data is the exact numerical values with **integer**. Integer are tinyint, smallint, int, and bigint. It's better to use the smallest type.
 
 
