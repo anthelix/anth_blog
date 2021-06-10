@@ -19,9 +19,9 @@ With +, -, \*, / or %, integer are converted into **numeric** before the final c
 **decimal** are lenght-fixed and precision-fixed. With the maximum precision-fixed, values are betwween -10^38+1 and 10^38-1. decimal[ (p[,s])] : *p (precison)*, total number in the decimal, right part and left part of the comma with p between 1 and 38, default 18. (informatica only 16). *s (scale)*, right part of the comma. p minus s give the maximum number at the left part. Numeric is functionally the same as decimal.   
 **float** Approximate data types for use with floating point numeric data. The ISO synonym for real is float(24). float [ ( n ) ] : n is the number of bits used to store the mantissa of the float number in scientific notation and indicates the level of precision and the storage size. If n is specified, its value must be between 1 and 53.    
 
-
-
-
-
-
 So, step by step and keep learning!
+{:class="table table-bordered"}
+| Tex Space     | Blue Space        | Lambda            |
+|-------------- |----------------   |------------------ |
+| sXYZ          | sBlue             | sXYZ abcde fghy   |
+| Jaobe XTZ     | Blue Game 5.2     | 5.2               |
