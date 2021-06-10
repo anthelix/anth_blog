@@ -9,17 +9,12 @@ permalink: /:categories/:year/:month/:day/:title.html
 Well. 
 Another type of data is the exact numerical values with **integer**. Integer are tinyint, smallint, int, and bigint. It's better to use the smallest type.
 <style>
-.tablelines table{
- border-width:1px; 
- border-style:solid; 
- border-color:black;
- width:50%;
- } .tablelines td { 
+.tablelines table , tablelines tr { 
  border-width:1px;
  border-style:solid; 
  border-color:red;
  width:50%;
- } , .tablelines th 
+ },  .tablelines td  , .tablelines th 
 </style>
 |Type     |Range                                                                     |Storage                               | 
 |-|-|-|
