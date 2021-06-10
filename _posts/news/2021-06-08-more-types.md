@@ -15,29 +15,6 @@ Another type of data is the exact numerical values with **integer**. Integer are
 |int|-2^31 <--> 2^31-1 (-2 147 483 648, 2 147 483 647)|4 bytes ex: # students in university|
 |bigint|-2^63 <--> 2^63-1 (-9 223 372 036 854 775 808, 9 223 372 036 854 775 807)|8 bytes|
 
-<table>
-<colgroup>
-<col width="30%" />
-<col width="70%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Field</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td markdown="span">First column **fields**</td>
-<td markdown="span">Some descriptive text. This is a markdown link to [Google](http://google.com). Or see [some link][mydoc_tags].</td>
-</tr>
-<tr>
-<td markdown="span">Second column **fields**</td>
-<td markdown="span">Some more descriptive text.
-</td>
-</tr>
-</tbody>
-</table>
 
 
 With +, -, \*, / or %, integer are converted into **numeric** before the final conversion in float, real, decimal, or numeric. Integer 5 give numeric (1, 0), 250 give (3, 0) , so long.
