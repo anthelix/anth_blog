@@ -11,6 +11,6 @@ Well. It's about monetary values or currencies. Don't forget to use a dot to sep
 |-|-|-|
 | money | 	-922 337 203 685 477,5808 <--> 922 337 203 685 477,5807 (-922 337 203 685 477,58 <--> 922 337 203 685 477,58 pour Informatica. Informatica prend uniquement en charge deux décimales, et non quatre.) 	| 8 octets |
 | smallmoney |	-214 748,3648 <--> 214 748,3647 	 | 4 octets|
-{: .tablelines}
+{:.tablelines}
 
 So, step by step and happy learning!
