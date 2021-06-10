@@ -16,13 +16,18 @@ $theme-a: $header;
 $theme-a-hover: $font-color;
 $theme-accent: $link-hover-color;
 
+$spacing-unit: rem;
 $table-border-color: red;
+$table-text-align: left;
+$table-text-color: black;
+$table-zebra-color: transparent;
+$table-header-bg-color: transparent;
+$table-header-border: black;
 
 /**
  * Tables
  */
 .tablelines {
-  margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
   color: $table-text-color;
