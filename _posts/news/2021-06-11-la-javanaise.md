@@ -8,8 +8,8 @@ permalink: /:categories/:year/:month/:day/:title.html
 ---
 
 This week, it's ... Java. So, Go head!   
-Although this first day was quiet, the foundations of this language are laid!
-
+Although this first day was quiet, the foundations of this language are laid! 
+Object Oriented − In Java, everything is an Object:  
 - portable, statically typed, object-oriented programming language
 - developed by Sun in the mid 1990s
 - useful for  web pages and mobile apps or  for the needs scalability, performance, multithreading, memory management and portability
