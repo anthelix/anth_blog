@@ -1,6 +1,6 @@
 ---
 layout: postlog
-title: "Stephanie Chatagner, At The Beginning, Types"
+title: "Stephanie Chatagner, String A Long (Fleetwood Mac, 1992)"
 date: 2021-06-07
 categories: blog
 author : T-Sql
