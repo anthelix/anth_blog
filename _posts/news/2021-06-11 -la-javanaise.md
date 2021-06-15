@@ -1,7 +1,7 @@
 ---
 layout: postlog
 title: "Stephanie Chatagner, La Javanaise (Serge Gainsbourg, 1963)"
-date: 2021-06-15
+date: 2021-06-11
 categories: blog
 author: Java
 permalink: /:categories/:year/:month/:day/:title.html
