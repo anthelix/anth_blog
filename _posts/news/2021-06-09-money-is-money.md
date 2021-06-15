@@ -3,7 +3,7 @@ layout: postlog
 title: "Stephanie Chatagner, Money is Money"
 date: 2021-06-09
 categories: blog
-author: Java
+author: T-sql
 permalink: /:categories/:year/:month/:day/:title.html
 ---
 
