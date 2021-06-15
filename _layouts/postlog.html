@@ -3,7 +3,7 @@ layout: template
 ---
 
 <h2>{{ page.title }}</h2>
-<time>Posted On {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
+<time>Posted on {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
 <a>
 
   {% if post.subtitle %}
