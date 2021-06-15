@@ -3,6 +3,7 @@ layout: postlog
 title: "Stephanie Chatagner, More  Types"
 date: 2021-06-08
 categories: blog
+author : T-Sql
 permalink: /:categories/:year/:month/:day/:title.html
 ---
 
