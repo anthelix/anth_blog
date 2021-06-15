@@ -1,6 +1,6 @@
 ---
 layout: postlog
-title: "Stephanie Chatagner, More  Types"
+title: "Stephanie Chatagner, Numbers(Pharrell Williams, Skepta, 2016)"
 date: 2021-06-08
 categories: blog
 author : T-Sql
