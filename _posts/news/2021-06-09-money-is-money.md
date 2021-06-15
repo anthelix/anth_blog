@@ -16,4 +16,4 @@ Well. It's about monetary values or currencies. Don't forget to use a dot to sep
 | smallmoney |	-214 748,3648 <--> 214 748,3647 	 | 4 octets|
 {: .tablelines}
 
-So, step by step and happy learning!
+So, step by step, and happy learning!
