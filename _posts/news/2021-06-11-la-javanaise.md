@@ -70,5 +70,72 @@ Major Building blocks
 
         - Truncation : loss precision
 
+### Methods
+
+- block of code to re-use
+- **calling** or **invoking** the method
+- Syntax : Name, Parameters, Method body, Return type
+- Methods vs Functions:
+    - A function is any block of reusable/callable code
+    - A method is a block of reusable/callable code **that is attached to a class or object**
+
+```java
+public class MethodExercise{
+	public static void main(String[] args) {
+	    System.out.println("The Sum is:" + MethodExercise.addNumbers(7,7));
+	}
+	
+	
+	//Add your function here:
+	public static int addNumbers(int num1, int num2){
+			return num1 + num2;
+	}
+}
+```
+
+- Stack vs Heap
+    - two different memory regions
+        - **Stack** used to store primitives and object references   //pile
+            - Items  get added and removed as a given method executes
+            - can only be accessed by the related method
+            - removed from the stack in a Last-In-First-Out (LIFO) order:  last element added to the stack is the first that gets popped off the stack
+        - **Heap** is used to store the objects themselves             //paquet
+            - objects stay until the application is done or no object references using them
+            - accessible from anywhere in the program
+    - determine how other classes are allowed to access your variables and methods.
+### Access Modifiers      
+- restrict access to certain data in the application in order to ensure it doesn't get modified
+- Access modifiers determine how other classes are allowed to access your variables and methods.
+- Type of Access Modifiers:
+    - **Public :** the class can be accessed from everywhere.  expose a method to all other classes.
+    - **Private :** only the defining class can access the data. This provides security, by not allowing other classes to change the data directly. changes the data via the provided methods only.
+    - **Protected** means that access is restricted to the defining class, package, or subclass. useful with subclasses and inheritance. allow subclasses to use variables and methods from the parent class.
+    - **Default** means access is restricted to the defining class or the package. used when classes inside the same package that we may want to expose data and methods too.
+
+Access Modifiers on Methods  
+`private void methodName()`   
+`void methodName() // The default is no access modifier`
+
+Access Modifiers on Variables  
+`private int number;`  
+`int number3; // Default is no access modifier`
+
+### Array
+
+- fixed-sized data structure =⇒ on ne plus rajouter d'element. seulement modifier
+- to store multiple values same value
+- array element be accessed by array index
+- `int [] numbers = {1, 2, 3, 4};` create an array
+- `int variable  =numbers[1]` access te array
+- Create  array
+
+```java
+int [] numbers =newint[4]; // init array, empty
+numbers[0] = 1; // assign values
+numbers[1] = 2;
+numbers[2] = 3;
+numbers[3] = 4;
+```
+
 So, step by step, and happy learning!
 
