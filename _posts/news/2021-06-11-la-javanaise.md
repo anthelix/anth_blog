@@ -28,7 +28,7 @@ Major Building blocks
 - **Javadoc** : JavaDoc produces a searchable HTML document that defines the classes and interfaces of an application
 - **Arrays** : to easily and efficiently store and retrieve collections of data
 
-### Java Keywords:
+### Java Keyword
 
 - Keywords are simply words that have a predefined meaning in the Java language.
 - used for some internal process or represent some predefined actions.
@@ -83,7 +83,6 @@ Major Building blocks
 		public static int addNumbers(int num1, int num2){
 				return num1 + num2;
 		}
-	}
 	```
 - Stack vs Heap
     - two different memory regions
@@ -95,7 +94,9 @@ Major Building blocks
             - objects stay until the application is done or no object references using them
             - accessible from anywhere in the program
     - determine how other classes are allowed to access your variables and methods.
-### Access Modifiers      
+
+### Access Modifiers
+
 - restrict access to certain data in the application in order to ensure it doesn't get modified
 - Access modifiers determine how other classes are allowed to access your variables and methods.
 - Type of Access Modifiers:
