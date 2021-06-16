@@ -15,9 +15,11 @@ Object Oriented − In Java, everything is an Object:
 - useful for  web pages and mobile apps or  for the needs scalability, performance, multithreading, memory management and portability
 - From C and C++
 
-[Java Tutorial](https://www.tutorialspoint.com/java/index.htm)
+Here, I found help in my Java path:
+[Java Tutorial (English)](https://www.tutorialspoint.com/java/index.htm)   
+[Achref El Mouelhi (French)](http://www.lsis.org/elmouelhia/teaching.html)
 
-**Major Building blocks**
+Major Building blocks
 - **Keywords** : predefined words of the Java language
 - **Variables** : to store data
 - **Loops**: to iterate over data structures
