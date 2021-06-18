@@ -46,9 +46,9 @@ Major Building blocks
     - The data type for a variable cannot later be changed
     - `;` : end of the statement
 - Primitive vs Reference
-    - **primitive** = a value, by itself   `type name = value;` loweercase
+    - **primitive** : a value, by itself   `type name = value;` lowercase
         `char name = 'value' ;` !!!! simple quote
-    - **reference value** = refers to an object stored  in another location  in memory, with data object  `Type name = value;` uppercase
+    - **reference value** : refers to an object stored in another location in memory, with data object `Type name = value;` uppercase
         - `String name = "few words"  ;` !!!! double quote
         - Types are String or Array, methods attached to accss and manipulate the data they contain `text.length();`, can be customized
         - user-defined classes
@@ -105,13 +105,13 @@ Major Building blocks
     - **Protected** means that access is restricted to the defining class, package, or subclass. useful with subclasses and inheritance. allow subclasses to use variables and methods from the parent class.
     - **Default** means access is restricted to the defining class or the package. used when classes inside the same package that we may want to expose data and methods too.
 
-Access Modifiers on Methods  
-	`private void methodName()`   
-	`void methodName() // The default is no access modifier`
+        Access Modifiers on Methods  
+            `private void methodName()`   
+            `void methodName() // The default is no access modifier`
 
-Access Modifiers on Variables  
-	`private int number;`  
-	`int number3; // Default is no access modifier`
+        Access Modifiers on Variables  
+            `private int number;`  
+            `int number3; // Default is no access modifier`
 
 ### Array
 - fixed-sized data structure =⇒ on ne plus rajouter d'element. seulement modifier
@@ -127,5 +127,6 @@ Access Modifiers on Variables
 	numbers[2] = 3;
 	numbers[3] = 4;
 	```
+
 So, step by step, and happy learning!
 
