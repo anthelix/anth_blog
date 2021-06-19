@@ -1,6 +1,8 @@
 ---
 layout: postlog
-title: "Stephanie Chatagner, How I choose a topic"
+title: "How I choose a topic"
+subtitle:
+tag: Data
 date: 2020-05-10
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html

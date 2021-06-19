@@ -1,6 +1,8 @@
 ---
 layout: postlog
-title: "Stephanie Chatagner, Why day are so short?"
+title: "Why day are so short?"
+subtitle:
+tag: Data
 date: 2020-05-14
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html

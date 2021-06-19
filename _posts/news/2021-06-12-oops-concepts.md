@@ -1,8 +1,9 @@
 ---
 layout: postlog
-title: "Stephanie Chatagner, OOP concepts"
+title: "OOP concepts"
+subtitle:
+tag: Java
 date: 2021-06-12
-author: Java
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
 ---

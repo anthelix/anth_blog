@@ -1,6 +1,8 @@
 ---
 layout: postlog
-title: "Stephanie Chatagner, Oh my Kaggle"
+title: "Oh my Kaggle"
+subtitle: 
+tag: Data
 date: 2020-05-13
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html

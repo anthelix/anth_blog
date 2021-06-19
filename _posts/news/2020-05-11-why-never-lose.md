@@ -1,6 +1,8 @@
 ---
 layout: postlog
-title: "Stephanie Chatagner, Why I never lose"
+title: "Why I never lose"
+subtitle:
+tag: Data
 date: 2020-05-11
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html

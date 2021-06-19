@@ -1,6 +1,8 @@
 ---
 layout: postlog
-title: "Stephanie Chatagner, One more time"
+title: "One more time"
+subtitle: 
+tag: Python
 date: 2020-05-15
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html

@@ -1,6 +1,8 @@
 ---
 layout: postlog
-title: "Stephanie Chatagner, Launches Site"
+title: "Launches Site"
+subtitle:
+tag:
 date: 2020-05-09
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html

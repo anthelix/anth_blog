@@ -1,6 +1,8 @@
 ---
 layout: postlog
-title: "Stephanie Chatagner, Data and more Data"
+title: "Data and more Data (in french)"
+subtitle:
+tag: Analyse
 date: 2020-09-15
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
@@ -39,5 +41,3 @@ Dans le bootcamp, 2 mois nous sépare du status grand débutant du jour de la pr
 
 Sorry about the French. I'll try not to do it again.
 So, step by step.
-
-s
