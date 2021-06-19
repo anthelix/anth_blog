@@ -1,6 +1,6 @@
 ---
 layout: postlog
-title: ""
+title: "Data Management"
 subtitle : "String A Long, Fleetwood Mac, 1992"
 tag: T-Sql
 date: 2021-06-07
