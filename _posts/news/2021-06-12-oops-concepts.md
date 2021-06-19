@@ -1,7 +1,7 @@
 ---
 layout: postlog
 title: "OOP concepts"
-subtitle:
+subtitle: "test"
 tag: Java
 date: 2021-06-12
 categories: blog
