@@ -32,6 +32,15 @@ h6 {
 	font-size: .5em;
 	padding: 0px 0px, 0px, 0px;
 }
+h6:visited {
+	color: $link-color;
+	text-decoration: underline;
+	font-weight: bold;
+}
+h6:hover {
+	color: $link-hover-color;
+	text-decoration: underline;
+}
 
 a,
 a:visited {
