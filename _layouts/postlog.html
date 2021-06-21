@@ -2,8 +2,8 @@
 layout: template
 ---
 
-<h2 style="display: inline"> {{ page.title }} </h2> 
-<h6 style="display: inline">{% if page.urlsong %} [{{ page.subtitle }}]({{ page.urlsong }}) {{% else %}} {{ page.subtitle}} {% endif %}</h6>
+<h2 style="display: inline"> Title {{ page.title }} </h2> 
+<h6 style="display: inline">{% if page.urlsong %} [{{ page.subtitle }}]({{ page.urlsong }}) {% else %} {{ page.subtitle}} {% endif %}</h6>
 <time style="display: block">Posted on {{ page.date | date: "%b %-d, %Y" }} {% if page.tag %} • {{ page.tag }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
 
 
