@@ -11,7 +11,7 @@ Well.
 Introduction to the Object-oriented programming (OOP)! This is a topic that could take a whole week. In the programming history, we have 4 generations: Binary Programming, Assembly Language, Procedural Programming then OOP. Everything is an object with Java and java supports the following concepts: Polymorphism, Inheritance, Encapsulation, Abstraction, Classes, Objects, Instance, Method, Message Passing.  
 
 
-`object` is create from the class. Inside class, `attributs` and `methods`.  It's an instance of a class. Objects have states and behaviors.  
+**object** is create from the class. Inside class, **attributs** and **methods**.  It's an instance of a class. Objects have states and behaviors.  
 - The object-to-object communication is done via methods.  
 - Object's state is stored in fields
 - Behavior is shown via methods 
@@ -19,22 +19,22 @@ Introduction to the Object-oriented programming (OOP)! This is a topic that coul
   - By reference variable: 's1.name="Sonoo";'
   - By method: 's1.insertRecord(111,"Karan");'
   - By constructor
-`class` can be compare to a template or blueprint( I love this word), It's a collection of objects. 
+**class** can be compare to a template or blueprint( I love this word), It's a collection of objects. 
 Can contains 
 - Local variables: Variables defined inside methods, constructors or Local variables. 
 - Instance variables: variables within a class but outside a method, initilized when the claas is instantiated, can be accessed from inside any method, constructor of that particular class.
-`Inheritance` when one object acquires all the properties and behavior of a parent object, provide code reusability.  
-`Polymorphism` if one task is performed in different ways. Java uses method overloading and method overriding.
-`Abstraction` hiding internal details and showing functionnality. Java uses abstract class and interface.
-`Encapsulation` wrapping code and data together into a single unit, like java class
+**Inheritance** when one object acquires all the properties and behavior of a parent object, provide code reusability.  
+**Polymorphism** if one task is performed in different ways. Java uses method overloading and method overriding.
+**Abstraction** hiding internal details and showing functionnality. Java uses abstract class and interface.
+**Encapsulation** wrapping code and data together into a single unit, like java class
 
 Other concepts:
-- `coupling` information or dependency of another class. Java uses private, protected and public modifiers to display the visibilty level.
-- `cohesion` level of a componemt which performs a single well-defined task. 
-- `association` represents relationship between objects. 
-- `aggregation` a way to achieve Association. It represents the weak relationship between objects.
-- `composition` a way to achieve Association. There is a strong relationship between the containing object and the dependent object.
-- `constructor`: to construct a new object. every class have one or more  constructor
+- **coupling** information or dependency of another class. Java uses private, protected and public modifiers to display the visibilty level.
+- **cohesion** level of a componemt which performs a single well-defined task. 
+- **association** represents relationship between objects. 
+- **aggregation** a way to achieve Association. It represents the weak relationship between objects.
+- **composition** a way to achieve Association. There is a strong relationship between the containing object and the dependent object.
+- **constructor**: to construct a new object. every class have one or more  constructor
 		```java
 			public class Puppy {
 			int puppyAge;
@@ -72,7 +72,7 @@ Other concepts:
 Definition : `public class NameClass{ attributs; methods }`
 - Instance Variable: inside class, outside methods. It gets memory when an object or instance is created.
 - Method: like a function which is used to expose the behavior of an object: Reusablity and Optimization
-- the keyword `new` : used to allocate memory at runtime
+- the keyword **new** : used to allocate memory at runtime
   
 		```java
 		/* First create an object */
