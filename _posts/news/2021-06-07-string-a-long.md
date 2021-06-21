@@ -16,3 +16,4 @@ CHAR(n) is fixed-lenght data type, all values are stored in n bytes even if  the
 VARCHAR(n) is  variable-lenght data type, all values are stored by their lenght,  one character, one byte and more 2 bytes to hold lenght information. When to use them?
 CHAR(n) is useful to store values whose are always going to be the same lenght and VARCHAR(n) with values whose size varies. Since VARCHAR(n) has an overhead of 2 bytes compared to CHAR(n), if the data has a fixed length, storing it in VARCHAR(n) will take more space.
 Then, **NCHAR(n) and NVARCHAR(n).** Same as previous, both store characters,  one for fixed-lenght, the other for  variable-leght data type.  n is the word lenght in byte pairs, so the max lenght is 4000.  The storage size is double n bytes and extra plus 2 bytes for NVARCHAR. Informations if UTF-16 are stored in the odd bytes.
+
