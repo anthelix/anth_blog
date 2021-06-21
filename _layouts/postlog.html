@@ -2,8 +2,8 @@
 layout: template
 ---
 
-<h2 style="text-align: left; float: left;">{{ page.title }} </h2> 
-<h6 style="text-align: right; float: right;">{% if page.subtitle %} {{ page.subtitle }} {% endif %}</h6>
+<h2 style="display: inline">{{ page.title }} </h2> 
+<h6 style="display: inline">{% if page.subtitle %} {{ page.subtitle }} {% endif %}</h6>
 <hr style="clear:both;" />
 <time>Posted on {{ page.date | date: "%b %-d, %Y" }}{% if page.tag %} • {{ page.tag }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
 
