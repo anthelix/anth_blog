@@ -2,12 +2,12 @@
 layout: template
 ---
 
-<h2 style="display: inline"> Title3 {{ page.title }} </h2> 
-<h6>
+<h2 style="display: inline"> {{ page.title }} </h2> 
+<h6 style="display: inline">
 {% if page.urlsong %}
-<a style="display: inline" href="{{ page.urlsong }}">{{ page.subtitle }}</a> 
+<a href="{{ page.urlsong }}">{{ page.subtitle }}</a> 
 {% else %} 
-<a style="display: inline">{{ page.subtitle }}</a> 
+<a>{{ page.subtitle }}</a> 
 {% endif %}
 </h6>
 <time style="display: block">Posted on {{ page.date | date: "%b %-d, %Y" }} {% if page.tag %} • {{ page.tag }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>

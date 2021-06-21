@@ -121,7 +121,9 @@ aside {
 					margin-bottom: -1px;
 					box-shadow: 0;
 					
-					&:hover,
+					&:hover {
+						text-decoration: none;
+					}
 					&:active {
 						background: $header;
 						text-decoration: none;
