@@ -2,15 +2,7 @@
 layout: template
 ---
 
-<h2>{{ page.title }}, </h2>
-<a>
-  Subtitle
-  {% if page.subtitle %}
-    <h3>
-    {{ page.subtitle }}
-    </h3>
-  {% endif %}
-</a>
+<h2>{{ page.title }}, </h2> <a>{% if page.subtitle %} {{ page.subtitle }} {% endif %}</a>
 
 <time>Posted on {{ page.date | date: "%b %-d, %Y" }}{% if page.tag %} • {{ page.tag }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
 
