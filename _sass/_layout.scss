@@ -45,26 +45,22 @@ a:hover {
 	text-decoration: underline;
 }
 
-h6 { 
-	a {
-	font-weight: .5em;
+a { 
+	h6 {
+	font-weight: 600;
 	color: $heading-font-color;
 	font-family: $heading-font;
 	line-height: 1.5;
 
-	&:hover,
-	&:active {
-		background: $header;
-		text-decoration: none;
-		color: $main;
-	
-	&:visited {
-		color: $link-color;
-		text-decoration: underline;
-		font-weight: bold;
+		&:hover,
+		&:active {
+			background: $header;
+			text-decoration: none;
+			color: $main;
+		}
 	}
-
 }
+
 header {
 	background: $header;
 	padding: 0px 15px;
