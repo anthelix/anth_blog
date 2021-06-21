@@ -82,6 +82,9 @@ main {
 }
 time {
 	color: #898989;
+	display: block;
+	padding-top: 100px;
+	padding-bottom: 20px;
 }
 .container {
 	max-width: $content-width;
