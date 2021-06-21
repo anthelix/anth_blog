@@ -4,7 +4,6 @@ layout: template
 
 <h2>{{ page.title }}</h2> 
 <h6>{% if page.subtitle %} {{ page.subtitle }} {% endif %}</h6>
-</br>
 <time>Posted on {{ page.date | date: "%b %-d, %Y" }}{% if page.tag %} • {{ page.tag }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
 
 
