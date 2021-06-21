@@ -18,4 +18,5 @@ I read [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted
 I learn about SparkContext(), SparkSession(), JAR files, Spark uses libraries from Hadoop to connect to S3. S3a protocol is scalable, supports authentication with AIM roles. Assign an IAM Role to your worker nodes and then attach policies granting access to your S3 bucket! 
 
 So tomorrow, an another day for datasets. I like that.      
-So, step by step!
+
+

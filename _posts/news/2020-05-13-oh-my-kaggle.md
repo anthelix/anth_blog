@@ -23,4 +23,4 @@ I read "La Logique pas a pas"(Logic step by step) by Jacques Duparc, The theory 
 I learn about `df.read_` to load files. 
  
 Tomorrow, I will work about data clean... or not!     
-So, step by step!
+

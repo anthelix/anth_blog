@@ -2,7 +2,9 @@
 layout: postlog
 title: "OOP concepts"
 subtitle: "test"
-tag: Tests
+subtitle: " •  • "
+urlsong: 
+tag: Java
 date: 2021-06-12
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
@@ -94,7 +96,3 @@ Methods tips:
 - Methods vs Functions:
     - A function is any block of reusable/callable code
     - A method is a block of reusable/callable code **that is attached to a class or object**
-
-
-
-So, step by step, and happy learning!

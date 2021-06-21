@@ -22,4 +22,3 @@ By taking a value("US-HI"), we find it if it exists with
 And don't forget `%xdel` to delete unnecessary Dataframes. 
 
 Tomorrow, I will work about data clean... One more time!   
-So, step by step!

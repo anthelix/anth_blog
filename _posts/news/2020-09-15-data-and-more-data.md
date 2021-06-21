@@ -40,4 +40,4 @@ Après la présentation à Pierre, nous lui avons  demandé son avis. En tant qu
 Dans le bootcamp, 2 mois nous sépare du status grand débutant du jour de la présentation de notre projet devant un jury de data analyst. Ensuite, viendra le temps des entretiens pour un futur job, c’est le but du bootcamp après tout. Aujourd’hui, ces entretiens m'effraient un peu moins. Grâce à ce projet, je peux simplement expliquer ce que j’ai appris pendant 2 mois. Je suis plus confiante dans ce que j‘ai appris. 
 
 Sorry about the French. I'll try not to do it again.
-So, step by step.
+

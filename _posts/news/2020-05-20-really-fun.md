@@ -18,6 +18,6 @@ I read [Regex](https://blog.usejournal.com/regular-expressions-a-complete-beginn
 I learn [Regex](https://github.com/ziishaned/learn-regex/blob/master/translations/README-fr.md)   
 I practice [Regex](https://regex101.com/#python)   
 
-So, step by step!
+
 
 

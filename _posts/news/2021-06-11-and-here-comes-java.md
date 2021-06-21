@@ -1,7 +1,8 @@
 ---
 layout: postlog
 title: "And here come's Java"
-subtitle: "La Javanaise, Serge Gainsbourg, 1963"
+subtitle: "La Javanaise • Serge Gainsbourg • 1963"
+urlsong: https://www.lyrics.com/lyric/3543905/Serge+Gainsbourg
 tag: Java
 date: 2021-06-11
 categories: blog
@@ -129,5 +130,4 @@ Major Building blocks
 	numbers[3] = 4;
 	```
 
-So, step by step, and happy learning!
-
+    

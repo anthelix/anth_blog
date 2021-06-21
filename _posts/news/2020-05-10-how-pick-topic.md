@@ -17,4 +17,5 @@ I read [How to Work with BIG Datasets]( https://www.kaggle.com/yuliagm/how-to-wo
 I learned from [Steps to Complete a Data Analytics Project](https://blog.dataiku.com/2019/07/04/fundamental-steps-data-project-success). I am new to this field. This blog gives me a great guideline!
 
 So, next step tomorrow about datasets.   
-So, step by step!
+
+

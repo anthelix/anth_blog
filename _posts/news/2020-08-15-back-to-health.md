@@ -13,4 +13,3 @@ I learned a lot during this project, both on a technical and human level.
 
 I still have to write an article to tell this story.
 
-So, step by step!
