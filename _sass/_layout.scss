@@ -9,7 +9,8 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+h6 {
 	font-weight: 600;
 	color: $heading-font-color;
 	font-family: $heading-font;
@@ -26,6 +27,10 @@ h1 {
 }
 h2 {
 	font-size: 2em;
+}
+h6 {
+	font-size: .5em;
+	padding: 0px 0px, 0px, 0px;
 }
 a,
 a:visited {
