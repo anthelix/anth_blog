@@ -48,11 +48,8 @@ a:hover {
 h6 { 
 	a {
 	font-weight: .5em;
-	padding-bottom: 10%;
-	color: red;
 	font-family: $heading-font;
 	line-height: 1.5;
-
 		&:hover,
 		&:active {
 			background: $header;
@@ -82,6 +79,7 @@ main {
 }
 time {
 	color: #898989;
+	padding-bottom: 10%, 10%;
 }
 .container {
 	max-width: $content-width;
