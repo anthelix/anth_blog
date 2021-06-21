@@ -28,19 +28,8 @@ h1 {
 h2 {
 	font-size: 2em;
 }
-h6 {
-	font-size: .5em;
-	padding: 0px 0px, 0px, 0px;
-}
-h6:visited {
-	color: $link-color;
-	text-decoration: underline;
-	font-weight: bold;
-}
-h6:hover {
-	color: $link-hover-color;
-	text-decoration: underline;
-}
+
+
 
 a,
 a:visited {
@@ -52,6 +41,8 @@ a:hover {
 	color: $link-hover-color;
 	text-decoration: underline;
 }
+
+
 header {
 	background: $header;
 	padding: 0px 15px;
