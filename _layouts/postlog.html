@@ -2,10 +2,7 @@
 layout: template
 ---
 
-<h2>Title : {{ page.title }}</h2>
-
-<time>Posted on {{ page.date | date: "%b %-d, %Y" }}{% if page.tag %} • {{ page.tag }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
-
+<h2>{{ page.title }}, </h2>
 <a>
   Subtitle
   {% if page.subtitle %}
@@ -14,6 +11,10 @@ layout: template
     </h3>
   {% endif %}
 </a>
+
+<time>Posted on {{ page.date | date: "%b %-d, %Y" }}{% if page.tag %} • {{ page.tag }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
+
+
 
 
 {{ content }}
