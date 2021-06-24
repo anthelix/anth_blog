@@ -129,5 +129,25 @@ Major Building blocks
 	numbers[2] = 3;
 	numbers[3] = 4;
 	```
-
-    
+- Loop over array 
+### Loops
+Components of a loop: Initialization, condition, execution body, increment or decrement
+#### while Loop: continuously executes as long as a given condition is True.
+	```java
+	while(condition){
+	    Execution block
+	}
+	```
+#### for Loop: iterates over the execution blocked until condition is met
+	```
+	for(initialization; condition; increment or decrement){
+	    Execution block
+	}
+	```
+#### do while Loop: runs the wxeption block first the evluates the condition to determine if it shoulld continue to iterate
+	```
+	do {
+	 Execution block
+	} while(condition);
+	```
+	 Even if the condition is false right from the start, the code inside the loop will still get run once.
