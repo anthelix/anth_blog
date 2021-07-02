@@ -12,10 +12,11 @@ permalink: /:categories/:year/:month/:day/:title.html
 Do you pronounce  "S-Q-L" or "Sequel" ?     
 It's an acronyme for Strutured Query Langage, a language to communicate with a database. SQL server is a relational database managemment system or RDBMS, developed by Microsoft. It operates as a server, containing many databasees, with multiple clients accesing the databases  from acrross a network. Clients are often other applications(website or CRM). We are  talking  about Client-server based systems.   SQL Server  comes with [SQL SERVER Management Studio](https://database.guide/what-is-sql-server-management-studio/), a graphical console to develop, configure and administer the SQL Server. 
 
-There are  3 subset of SQL
+There are 4 subsets of SQL
 - Data Definition Language (DDL): to describe  data  and its  relationnships in a database, with CREATE, ALTER, DROP statements. 
-- Data Manipulation Language (DML): to manipulate data  inn a databaase, with SELECT, INSERT, UPDATE, DELETE
--  Data Control Language (DCL): to control access to data  stored in a ddatabasee, with GRANT, REVOKE, DENY. 
+- Data Manipulation Language (DML): to manipulate data  inn a databaase, with SELECT, INSERT, UPDATE, DELETE.
+- Data Control Language (DCL): to control access to data  stored in a ddatabasee, with GRANT, REVOKE, DENY. 
+- Transaction Control Language (TCL):  used with DML and control the Transactions with COMMIT, ROLLBACK, SAVEPOINT, SET TRANSACTION.
 
 To mak it short, Transact Sql = Standart sql + Microsoft extension, It’s possible to install more than one SQL server by computer. The server or instance is indépendant from the other instances and services. When an instance is installed, one instance by default is createded too (MSSQLSERVER) Must be renamed (ex: MIA-SQL).    
 Convention naming for the next instance :
