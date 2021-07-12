@@ -17,6 +17,6 @@ INTO New_table
 FROM tab1
 [Where conditions];
 ```
-With the `WHERE` clause, it specifies which rows to copy, and gets partial data. The `SELECT` clause choosee few columns or any. The `JOIN` clause allows to create a table from several tables. 
+With the `WHERE` clause, it specifies which rows to copy, and gets partial data. The `SELECT` clause chose few columns or any. The `JOIN` clause allows to create a table from several tables.    
 The disadvantage of this methode to create table, it does not copy constraints such as primary key and indexes from the source table to the destination table.
 
