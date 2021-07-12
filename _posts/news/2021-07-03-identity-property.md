@@ -9,13 +9,14 @@ categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
 ---
 
-The `IDENTITY()` property contains an automatically incrementinng identtification number. It can be used with the `CREATE TABLE` and the  `ALTER TABLE` statement. 
+The `IDENTITY()` property contains an automatically incrementinng identification number. It can be used with the `CREATE TABLE` and the  `ALTER TABLE` statement. 
 ```
 CREATE TABLE Pets (
     PetId int IDENTITY(1,1) PRIMARY KEY,
     PetName varchar(255)
     );
 ```
+The first row inn `PetId` column will have the value 1 and be increment by 1 for the next row 
 We can't override the values created by the `IDENTITY()` property except by enabling IDENTITY_INSERT:
 - with `SET IDENTITY column_identity ON`
 - user must own the tble or have `ALTER` permission on th table
