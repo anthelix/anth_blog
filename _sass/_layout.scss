@@ -90,6 +90,19 @@ time {
 	max-width: $content-width;
 	margin: 0 auto;
 }
+/* Article, post index page */
+.posts {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-position: inside;
+
+	li{
+		list-style: none;
+	}
+}
+
+
+
 
 /* Aside */
 
