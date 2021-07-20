@@ -12,7 +12,6 @@ permalink: /:categories/:year/:month/:day/:title.html
 Chance makes things weird. I listen to this song while thinking about the object in Java. The link is not obvious. 
 Introduction to the Object-oriented programming (OOP)! This is a topic that could take a whole week. In the programming history, we have 4 generations: Binary Programming, Assembly Language, Procedural Programming then OOP. Everything is an object with Java and java supports the following concepts: Polymorphism, Inheritance, Encapsulation, Abstraction, Classes, Objects, Instance, Method, Message Passing.  
 
-
 **object** is create from the class. Inside class, **attributs** and **methods**.  It's an instance of a class. Objects have states and behaviors.  
 - The object-to-object communication is done via methods.  
 - Object's state is stored in fields
