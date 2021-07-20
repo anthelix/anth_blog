@@ -8,7 +8,6 @@ date: 2021-07-05
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
 ---
-
 The `IDENTITY()` property contains an automatically incrementinng identification number. It can be used with the `CREATE TABLE` and the  `ALTER TABLE` statement. 
 ```
 CREATE TABLE Pets (
