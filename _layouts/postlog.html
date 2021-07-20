@@ -12,14 +12,14 @@ layout: template
 </h6>
 </br>
 <time style="display: block;padding-bottom: 60px;padding-top: 40px;">Posted on {{ page.date | date: "%b %-d, %Y" }}</time>
-<h2 style="display: inline">{% if page.tag %} • {{ page.tag }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</h2> 
+<h6 style="display: inline">
+    {% if page.tag %} • {{ page.tag }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+</h6> 
+</br>
 
 Well.   
 
 {{ content }}
-    
-
-
 
 So, step by step and keep learning!
 
