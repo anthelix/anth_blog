@@ -3,7 +3,7 @@ layout: postlog
 title: "Select Into Statement"
 subtitle: "Ruby Lee • Bill Withers • 1974 "
 urlsong: https://open.spotify.com/track/0RTPZ8Yd44dsoR3uSkK9GT?si=eeb043f26b4647af
-tag: Sql
+tag: T-Sql
 date: 2021-07-02
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
