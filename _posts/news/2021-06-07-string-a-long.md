@@ -1,6 +1,6 @@
 ---
 layout: postlog
-title: "Data Management"
+title: "Data Type"
 subtitle : "String A Long • Fleetwood Mac • 1992"
 urlsong: https://www.lyrics.com/lyric/20948057/Fleetwood+Mac
 tag: T-Sql
@@ -9,7 +9,7 @@ categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
 ---
 
-Well. Last weeks, I worked around Data Management. I will write about this  topic later. Right now, I learn sql server  and Transact sql. Remember, the byte is " the unit of information corresponding to 1 byte (1 octet in french), that is 8 bits.    
+Last weeks, I worked around Data Management. I will write about this  topic later. Right now, I learn sql server  and Transact sql. Remember, the byte is " the unit of information corresponding to 1 byte (1 octet in french), that is 8 bits.    
 Let's talk about  data types and first CHAR and VARCHAR.       
 **CHAR(n) and VARCHAR(n).** Both are data types  to store characters.  The max lenght is  8000. 
 CHAR(n) is fixed-lenght data type, all values are stored in n bytes even if  the string is less than n.
