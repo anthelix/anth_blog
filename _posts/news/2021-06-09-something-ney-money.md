@@ -9,7 +9,7 @@ categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
 ---
 
-Well. It's about monetary values or currencies. Don't forget to use a dot to separate partial currency units. SQL server keep in memory only the value, not the currencie associate with.    
+It's about monetary values or currencies. Don't forget to use a dot to separate partial currency units. SQL server keep in memory only the value, not the currencie associate with.    
 
 |Data type |Range |Store |
 |-|-|-|
