@@ -80,34 +80,56 @@ main {
 	background-color: #fff;
 	padding: 0px 10px 0px 10px;
 }
-time {
-	color: #898989;
-	display: block;
-	padding-top: 100px;
+.postime{
+	padding-top: 50px;
 	padding-bottom: 20px;
+	display: block;
+	time {
+		color: #b99393;
+	}
 }
 .container {
 	max-width: $content-width;
 	margin: 0 auto;
+}
+
+/* Article log post*/
+.log {
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	.title { 
+
+		h2 {
+			margin-top: 0.5rem;
+			margin-bottom: -2rem;
+		}
+		h6 {
+			margin-top: 0rem;
+			margin-bottom: -1rem;
+		}
+	}
 }
 /* Article, post index page */
 .posts {
     margin-left: 0;
     padding-left: 0;
     list-style-position: inside;
-	background: none;
+
 
 	li{
 		list-style: none;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
 		a {
-			font-size: 200%;
+			font-size: 130%;
+
 		}
 	}
 
 	.date {
 		color: #888;
 		font-style: italic;
-		font-size: 50%;
+		font-size: 60%;
 		margin-left: 5px;
 		float: right;
 	}

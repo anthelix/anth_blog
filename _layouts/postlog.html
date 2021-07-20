@@ -1,28 +1,27 @@
 ---
 layout: template
 ---
+<div class="log">
+    <div class="title">
+        <h2 style="display: inline"> {{ page.title }} </h2> 
+        <h6 style="display: block">
+        {% if page.urlsong %}
+        <a href="{{ page.urlsong }}">{{ page.subtitle }}</a> 
+        {% else %} 
+        <a>{{ page.subtitle }}</a> 
+        {% endif %}
+        </h6>
+    </div>
 
-<h2 style="display: inline"> {{ page.title }} </h2> 
-<h6 style="display: inline">
-{% if page.urlsong %}
-<a href="{{ page.urlsong }}">{{ page.subtitle }}</a> 
-{% else %} 
-<a>{{ page.subtitle }}</a> 
-{% endif %}
-</h6>
-</br>
-<time style="display: inline;padding-bottom: 60px;padding-top: 40px;">Posted on {{ page.date | date: "%b %-d, %Y" }}</time> <h6 style="display: inline"> {% if page.tag %} • {{ page.tag }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</h6>
+    </p></p>
+    <div class="postime">
+        <time style="display: inline;">Posted on {{ page.date | date: "%b %-d, %Y" }}</time> <h6 style="display: inline"> {% if page.tag %} • {{ page.tag }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</h6>
+    </div>
+    </p></p>
 
-</br>
+    Well.
 
-Well.
+    {{ content }}
 
-{{ content }}
-
-So, step by step and keep learning!
-
-
-</br>
-
-
-
+    So, step by step and keep learning!
+</div>
