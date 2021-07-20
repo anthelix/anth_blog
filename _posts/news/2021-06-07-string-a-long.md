@@ -1,6 +1,6 @@
 ---
 layout: postlog
-title: "Data Type"
+title: "String Data Type"
 subtitle : "String A Long • Fleetwood Mac • 1992"
 urlsong: https://www.lyrics.com/lyric/20948057/Fleetwood+Mac
 tag: T-Sql
