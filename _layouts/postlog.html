@@ -11,10 +11,11 @@ layout: template
 {% endif %}
 </h6>
 </br>
-<time style="display: block;padding-bottom: 60px;padding-top: 40px;">Posted on {{ page.date | date: "%b %-d, %Y" }}</time>
+<time style="display: block;padding-bottom: 60px;padding-top: 40px;">Posted on {{ page.date | date: "%b %-d, %Y" }}
 <h6 style="display: inline">
     {% if page.tag %} • {{ page.tag }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
-</h6> 
+</h6>
+</time>
 </br>
 
 Well.   
