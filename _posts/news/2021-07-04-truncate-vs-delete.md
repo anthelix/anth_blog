@@ -1,6 +1,6 @@
 ---
 layout: postlog
-title: "Delete and truncate in SQL Server"
+title: "Delete and Truncate in SQL Server"
 subtitle: " Jimmy • Moriatry • 2007"
 urlsong: https://open.spotify.com/track/6Zw0NBdfr1VlVJjDRFwUe1?si=f3a6ed6397034103
 tag: T-Sql
@@ -8,7 +8,6 @@ date: 2021-07-04
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
 ---
-
 Today, some stuff about `DELETE` and `TRUNACATE` statements. 
 ### DELETE
 - remove records from a table, with where clause, one at a time
