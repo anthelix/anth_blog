@@ -7,9 +7,6 @@ date: 2020-09-15
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
 ---
-
-Well. 
-
 Septembre est là et notre bootcamp de Data Analyst est déjà loin.  C'était intense, instructif et fun! Ce type d'environnement d’apprentissage est très gratifiant et me laissera un souvenir impérissable ainsi qu'à ce premier Batch DataBird. 
 Venant du secteur de la Santé, j’ai toujours été attiré par la donnée médicale, son analyse et l’impact des transformations qu’elle entraîne sur le patient et son environnement. Sans notions de Mathématiques approfondies ou de Master en Économie et un passage par l’Ecole42, c’est très récemment que j’ai considéré une carrière dans la Data. C'était il y a 6 mois, on dirait un siècle ! Vu mon profil, je me suis lancé ce challenge personnel d’apprendre l’analyse des données en deux mois et de l’appliquer ensuite dans un futur métier en relation avec mon ancien parcours professionnel si possible. 
 Excepté que ce dernier point est arrive un peu plus tôt que prévu…
