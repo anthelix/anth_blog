@@ -4,7 +4,7 @@ title: "Set Operators!"
 subtitle: "Talk To Me • Y'Akoto • 2012"
 urlsong: https://open.spotify.com/track/1EaisEqFzeA0O50rqnrPVG?si=22ecde7daad24dd6
 tag: sql
-date: 2021-06-16
+date: 2021-06-16_A
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
 ---
