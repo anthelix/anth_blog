@@ -8,8 +8,6 @@ date: 2021-07-03
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
 ---
-
-
 Schema is a logical collection of database object associated with a database such as tables, views, stored procedures, functions, indexes, triggers ...  
 An user of a databses is called a Schema owner. A schema belongs to a single database, and one dabase can have a single or multiple schemas. 
 ` [database].[schema].[table]` 
