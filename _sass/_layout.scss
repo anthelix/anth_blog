@@ -95,9 +95,13 @@ time {
     margin-left: 0;
     padding-left: 0;
     list-style-position: inside;
+	background: none;
 
 	li{
 		list-style: none;
+		a {
+			font-size: 200%;
+		}
 	}
 
 	.date {
