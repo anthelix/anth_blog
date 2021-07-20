@@ -24,6 +24,15 @@ $table-zebra-color: transparent;
 $table-header-bg-color: transparent;
 $table-header-border: black;
 
+.blurb {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 /**
  * Tables
  */
