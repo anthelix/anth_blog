@@ -7,8 +7,7 @@ tag: Java
 date: 2021-06-11
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
----
-Well.    
+---  
 This week, it's ... Java. So, Go head!   
 Although this first day was quiet, the foundations of this language are laid! 
 Object Oriented − In Java, everything is an Object:  
