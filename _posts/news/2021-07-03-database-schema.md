@@ -3,7 +3,7 @@ layout: postlog
 title: "Database Schema"
 subtitle: "Il est cinq heures • Jacques Dutronc • 1968"
 urlsong: https://open.spotify.com/track/2CLeotsLhEUu0qkj56vbUj?si=d36abad033514b8e
-tag: Sql
+tag: T-Sql
 date: 2021-07-03
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
