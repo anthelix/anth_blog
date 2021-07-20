@@ -32,4 +32,3 @@ There are great to combine the same type of data from several tables and then ge
 - INTERCEPT : Takes the data from both result sets which are in common, returns any distinct values that are returned by both the query on the left and right sides of the INTERSECT operand.
 - UNION: Combine two or more result sets into a single set, without duplicates.
 - UNION ALL : Combine two or more results sets into a single set, including all duplicates. 
-
