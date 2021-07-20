@@ -1,6 +1,6 @@
 ---
 layout: postlog
-title: "The Set Operators"
+title: "The Set Operators in T-Sql"
 subtitle: "The Girl From Ipanema • Stan Getz, Joao Gilberto, Astrud Gilberto • 1989"
 urlsong: https://open.spotify.com/track/3898C4AbdbptwYet6547e5?si=46fba54fbfab4504
 tag: Sql
