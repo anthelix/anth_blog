@@ -149,4 +149,4 @@ Components of a loop: Initialization, condition, execution body, increment or de
 	 Execution block
 	} while(condition);
 	```
-	 Even if the condition is false right from the start, the code inside the loop will still get run once.
+Even if the condition is false right from the start, the code inside the loop will still get run once.
