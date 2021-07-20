@@ -16,7 +16,3 @@ Add the Regex and another dimension opens...
 I read [Regex](https://blog.usejournal.com/regular-expressions-a-complete-beginners-tutorial-c7327b9fd8eb)   
 I learn [Regex](https://github.com/ziishaned/learn-regex/blob/master/translations/README-fr.md)   
 I practice [Regex](https://regex101.com/#python)   
-
-
-
-
