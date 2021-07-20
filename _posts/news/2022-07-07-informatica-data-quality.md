@@ -8,5 +8,3 @@ date: 2022-07-07
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
 ---
-
-
