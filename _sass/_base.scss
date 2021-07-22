@@ -30,14 +30,14 @@ $table-header-border: black;
  * code highlight
  */
 code.language-plaintext.highlighter-rouge {
-    font-size: 82%;
+    font-size: 72%;
     overflow-wrap: break-word;
     color: rgb(168, 61, 142);
     font-family: Menlo, Consolas, monospace;
 }
 
-.highlighter-rouge pre.highlight {
-    background: hsla(var(--rdmz-h),var(--rdmz-s),var(--rdmz-l),.03);
+div.language-plaintext.highlighter-rouge {
+    background: rgb(168, 61, 142,.03);
 }
 
 
