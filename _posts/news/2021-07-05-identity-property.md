@@ -27,7 +27,7 @@ We can't override the values created by the `IDENTITY()` property except by enab
 Only one Identity column by table and it doesn't guarantee uniqueness of the value nd  consecutive values  within a transaction. Few useful Identity functions in SQL Server work with the `IDENTITY` column in a table.
 - `SQL @@IDENTITY` Function : return the maximum used `IDENTITY`
 - `SQL SCOPE_IDENTITY()` Function: return the last `IDENTITY` value in a table
-- `SQL IDENTITY` Function: different from the `IDENTITY` property used while creating any table. useful with the SELECT INTO statement. If IDENTITY in the first table then the table created using this statement inherits of it. Else:
+- `SQL IDENTITY` Function: different from the `IDENTITY` property used while creating any table. useful with the `SELECT INTO` statement. If `IDENTITY` in the first table then the table created using this statement inherits of it. Else:
 ```sql
 SELECT IDENTITY( INT, 100, 2) AS NEW_ID, 
        ID, 
