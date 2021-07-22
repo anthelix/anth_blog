@@ -9,12 +9,12 @@ categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
 ---
 The `IDENTITY()` property contains an automatically incrementinng identification number. It can be used with the `CREATE TABLE` and the  `ALTER TABLE` statement. 
-```
-CREATE TABLE Pets (
-    PetId int IDENTITY(1,1) PRIMARY KEY,
-    PetName varchar(255)
-    );
-```
+    ```sql
+    CREATE TABLE Pets (
+        PetId int IDENTITY(1,1) PRIMARY KEY,
+        PetName varchar(255)
+        );
+    ```
 The first row inn `PetId` column will have the value 1 and be increment by 1 for the next row 
 We can't override the values created by the `IDENTITY()` property except by enabling IDENTITY_INSERT:
 - with `SET IDENTITY column_identity ON`
@@ -24,11 +24,11 @@ We can't override the values created by the `IDENTITY()` property except by enab
 Only one Identity column by table and it doesn't guarantee uniqueness of the value nd  consecutive values  within a transaction. Few useful Identity functions in SQL Server work with the IDENTITY column in a table.
 - `SQL @@IDENTITY` Function : return the maximum used IDENTITY
 - `SQL SCOPE_IDENTITY()` Function: return the last IDENTITY value in a table
-- `SQL IDENTITY Function: different from the IDENTITY property used while creating any table. useful with the SELECT INTO statement. If IDENTITY in the first table then the table created using this statement inherits of it. Else:
-```
-SELECT IDENTITY( INT, 100, 2) AS NEW_ID, 
-       ID, 
-       Name
-INTO temp2
-FROM employeedata;
-```
+- `SQL IDENTITY` Function: different from the IDENTITY property used while creating any table. useful with the SELECT INTO statement. If IDENTITY in the first table then the table created using this statement inherits of it. Else:
+    ```sql
+    SELECT IDENTITY( INT, 100, 2) AS NEW_ID, 
+           ID, 
+           Name
+    INTO temp2
+    FROM employeedata;
+    ```
