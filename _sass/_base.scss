@@ -24,6 +24,23 @@ $table-zebra-color: transparent;
 $table-header-bg-color: transparent;
 $table-header-border: black;
 
+
+
+/**
+ * code highlight
+ */
+.language-plaintext .highlighter-rouge {
+  font-size: 92%;
+  overflow-wrap: break-word;
+  color: rgb(168, 61, 142);
+}
+
+.highlight>pre, .highlighter-rouge pre.highlight {
+    background: hsla(var(--rdmz-h),var(--rdmz-s),var(--rdmz-l),.03);
+}
+
+
+
 .blurb {
   width: 40%;
   display: flex;
