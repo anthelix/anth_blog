@@ -56,12 +56,12 @@ Major Building blocks
 - Type Casting
     - change type in another type
         - **Automatic** : converts a smaller type into a larger type
-            ```java
+            ```sql
             int intNumber = 3;
             double doubleNumber = intNumber;
             ```
         - **Manuel** : Convert a larger type into a smaller type, Convert one object type into another.
-            ```java
+            ```sql
             double doubleNumber = 3.5;
             int intNumber = (int)doubleNumber;
             ```
@@ -74,7 +74,7 @@ Major Building blocks
 - Methods vs Functions:
     - A function is any block of reusable/callable code
     - A method is a block of reusable/callable code **that is attached to a class or object**
-	```java
+	```sql
 	public class MethodExercise{
 		public static void main(String[] args) {
 		    System.out.println("The Sum is:" + MethodExercise.addNumbers(7,7));
@@ -121,7 +121,7 @@ Major Building blocks
 - `int [] numbers = {1, 2, 3, 4};` create an array
 - `int variable  =numbers[1]` access te array
 - Create  array
-	```java
+	```sql
 	int [] numbers =newint[4]; // init array, empty
 	numbers[0] = 1; // assign values
 	numbers[1] = 2;
@@ -132,19 +132,19 @@ Major Building blocks
 ### Loops
 Components of a loop: Initialization, condition, execution body, increment or decrement
 #### while Loop: continuously executes as long as a given condition is True.
-	```java
+	```sql
 	while(condition){
 	    Execution block
 	}
 	```
 #### for Loop: iterates over the execution blocked until condition is met
-	```
+	```sql
 	for(initialization; condition; increment or decrement){
 	    Execution block
 	}
 	```
 #### do while Loop: runs the wxeption block first the evluates the condition to determine if it shoulld continue to iterate
-	```
+	```sql
 	do {
 	 Execution block
 	} while(condition);
