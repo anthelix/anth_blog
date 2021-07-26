@@ -11,7 +11,7 @@ permalink: /:categories/:year/:month/:day/:title.html
 
 Yesterday, I discovered the `SELECT INTO` statement.   
 It creates a new  table and inserts rows from the query into it, an existing table.
-```
+```sql
 SELECT col1,col2...ColN
 INTO New_table
 FROM tab1

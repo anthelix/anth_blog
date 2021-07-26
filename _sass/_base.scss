@@ -30,24 +30,21 @@ $table-header-border: black;
  * code highlight
  */
 code.language-plaintext.highlighter-rouge {
-    font-size: 88%;
-    font-weight: bold;
+    font-size: 78%;
     overflow-wrap: break-word;
-    color: #ff5c82;
+    color: #BC2E7A;
     font-family: Menlo, Consolas, monospace;
 }
-/*
+
+
 div.language-sql.highlighter-rouge {
-    background-color: #FAF8F8;
+    background-color: #f8f7f8;
     font-family: Menlo, Consolas, monospace;
     font-size: 90%;
     line-height: 1.1;
-    padding: 1em 1em 1em 1em;
-    border: auto 1em auto 1em;
-    border-color: #FAF8F8;
-    Marginf: 1em;
+    padding: 1em 1em 1em 5em;
+
 }
-*/
 
 
 .blurb {

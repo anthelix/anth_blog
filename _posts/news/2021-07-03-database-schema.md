@@ -17,6 +17,6 @@ Advantages:
 - apply security permissions for separating and protecting database objects based on user access rights.
 - apply security permissions for separating and protecting database objects based on user access rights.    
 
-SQL Server provides some pre-defined schemas which have the same names as the built-in database users and roles, for example: dbo, guest, sys, and INFORMATION_SCHEMA. The dbo schema is the default schema.
+SQL Server provides some pre-defined schemas which have the same names as the built-in database users and roles, for example: `dbo`, `guest`, `sys`, and `INFORMATION_SCHEMA`. The `dbo schema` is the default schema.
 
 Here, some useful informations on [sqlshack](https://www.sqlshack.com/a-walkthrough-of-sql-schema/) and [quest](https://www.notion.so/Schema-in-SQL-Sever-3ca864a228594741858af8972622fb1f#e741b630612b4a20a62bb3ee3291b15b)

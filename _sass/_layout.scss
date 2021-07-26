@@ -108,6 +108,14 @@ main {
 			margin-bottom: -1rem;
 		}
 	}
+	ul {
+			list-style-type: '\2022';
+			padding-left: 32px;
+
+		li {
+			padding-left: 6px;
+		}
+	}
 }
 /* Article, post index page */
 .posts {

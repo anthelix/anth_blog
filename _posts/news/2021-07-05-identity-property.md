@@ -12,8 +12,8 @@ The `IDENTITY()` property contains an automatically incrementinng identification
 
 ```sql
 CREATE TABLE Pets (
-    PetId intINDENTITY(1,1) PRIMARY KEY,
-    PetName varchar(255)
+    PetId INT IDENTITY(1,1) PRIMARY KEY,
+    PetName VARCHAR(255)
 );
 ```
 
@@ -28,6 +28,7 @@ Only one Identity column by table and it doesn't guarantee uniqueness of the val
 - `SQL @@IDENTITY` Function : return the maximum used `IDENTITY`
 - `SQL SCOPE_IDENTITY()` Function: return the last `IDENTITY` value in a table
 - `SQL IDENTITY` Function: different from the `IDENTITY` property used while creating any table. useful with the `SELECT INTO` statement. If `IDENTITY` in the first table then the table created using this statement inherits of it. Else:
+    
 ```sql
 SELECT IDENTITY( INT, 100, 2) AS NEW_ID, 
        ID, 
@@ -35,3 +36,7 @@ SELECT IDENTITY( INT, 100, 2) AS NEW_ID,
 INTO temp2
 FROM employeedata;
 ```
+     
+          
+
+
