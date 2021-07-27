@@ -18,16 +18,16 @@ There are great to combine the same type of data from several tables and then ge
     - Column names or aliases must be determined by the first `SELECT` statement
     - Null values are equal 
 - Syntax: 
-   ```sql
-    SELECT [Col, . . . ] FROM [t1] [WHERE conditions]
-    [set operator]
-    SELECT [Col, . . .] FROM [t2] [WHERE conditions]
-    [set operator]
-    ...
-    ...
-    SELECT [Col, . . . ] FROM [tableN] [WHERE conditions]
-    [ORDER BY];
-    ```
+```sql
+SELECT [Col, . . . ] FROM [t1] [WHERE conditions]
+[set operator]
+SELECT [Col, . . .] FROM [t2] [WHERE conditions]
+[set operator]
+...
+...
+SELECT [Col, . . . ] FROM [tableN] [WHERE conditions]
+[ORDER BY];
+```
 - `EXCEPT` : Return distincts rows of the left statement, not find in the right statement. Retrieve all record from the first dataset, then remove from the result all records from the second dataset.
 - `INTERCEPT` : Takes the data from both result sets which are in common, returns any distinct values that are returned by both the query on the left and right sides of the `INTERSECT` operand.
 - `UNION`: Combine two or more result sets into a single set, without duplicates.
