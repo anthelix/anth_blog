@@ -1,6 +1,6 @@
 ---
 layout: postlog
-title: "What is Identity ?"
+title: "What is IDENTITY ?"
 subtitle: "Isn't It Something • Frannie Golde • 2018"
 urlsong: https://open.spotify.com/track/5CoLagayEHWXYGVl68KbgL?si=4379a9c12721495b
 tag: T-Sql

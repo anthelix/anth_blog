@@ -1,6 +1,6 @@
 ---
 layout: postlog
-title: "Something new, Money"
+title: "Something new, MONEY"
 subtitle: "Put Yout Money On me • Arcade Fire • 2017"
 urlsong: https://www.lyrics.com/lyric/34166936/Arcade+Fire
 tag: T-Sql

@@ -1,6 +1,6 @@
 ---
 layout: postlog
-title: "Select Into Statement"
+title: "SELECT INTO Statement"
 subtitle: "Ruby Lee • Bill Withers • 1974 "
 urlsong: https://open.spotify.com/track/0RTPZ8Yd44dsoR3uSkK9GT?si=eeb043f26b4647af
 tag: T-Sql

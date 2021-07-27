@@ -1,6 +1,6 @@
 ---
 layout: postlog
-title: "Delete and Truncate in SQL Server"
+title: "DELETE and TRUNCATE in SQL Server"
 subtitle: " Jimmy • Moriatry • 2007"
 urlsong: https://open.spotify.com/track/6Zw0NBdfr1VlVJjDRFwUe1?si=f3a6ed6397034103
 tag: T-Sql
