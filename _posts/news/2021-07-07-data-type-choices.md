@@ -15,8 +15,25 @@ SQL Server data page size limit of 8 KB and conditions that can cause page split
 ######  Fixed and Variable-Length Data Types
 In SQL Server, fixed and variable-length data types have different storage requirements.
 - Fixed-width data types always require the same amount of storage, regardless of the value stored in those columns or variables.
+  
+
+    |---|---|----|----|
+    | TINYINT | 1 byte | SMALLINT | 2 bytes|
+    | INT     | 2 bytes| BIGINT   | 8 bytes|
+    | DATETIME | 8 bytes | SMALLDATETIME | 4 bytes|
+    | CHAR | n bytes  | NCHAR  | (n*2) bytes |
+    | DECIMAL | 5-17 bytes | FLOAT | 4-8 bytes 
+    | UNIQUEIDENTIFIER | 16 bytes | 
+    {: .tablelines}
+    ` `  
 - Variable-width data types always have two extra bytes of overhead. In NCHAR and NVARCHAR, the N stands for the number of characters that are stored. Since NCHAR and NVARCHAR can store Unicode information, they require two bytes of storage per character. 
+
+    |---|---|----|----|
+    | VARCHAR | n +2 bytes | NVARCHAR | (n * 2) + 2 bytes|
+    {: .tablelines}
+    ` `  
 - In 'NCHAR' and 'NVARCHAR', the N stands for the number of characters that are stored. Since 'NCHAR' and 'NVARCHAR' can store Unicode information, they require two bytes of storage per character.
+
 
 
 
