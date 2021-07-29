@@ -9,3 +9,4 @@ categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
 ---
 
+Right-sizing can result in tremendous storage savings, which can lead to faster database performance. If ypu read my previous notes about [string type](./2021-06-07-string-a-long.md),  [numric type](./2021-06-08-numbers.md) and [money type](./2021-06-09-something-ney-money.md), you have already seen that this is a tricky subject.
