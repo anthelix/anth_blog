@@ -10,3 +10,24 @@ permalink: /:categories/:year/:month/:day/:title.html
 ---
 
 Right-sizing can result in tremendous storage savings, which can lead to faster database performance. If ypu read my previous notes about [string type](./2021-06-07-string-a-long.md),  [numric type](./2021-06-08-numbers.md) and [money type](./2021-06-09-something-ney-money.md), you have already seen that this is a tricky subject.
+SQL Server data page size limit of 8 KB and conditions that can cause page splitting. 
+
+######  Fixed and Variable-Length Data Types
+In SQL Server, fixed and variable-length data types have different storage requirements.
+- Fixed-width data types always require the same amount of storage, regardless of the value stored in those columns or variables.
+- Variable-width data types always have two extra bytes of overhead. In NCHAR and NVARCHAR, the N stands for the number of characters that are stored. Since NCHAR and NVARCHAR can store Unicode information, they require two bytes of storage per character. 
+- In 'NCHAR' and 'NVARCHAR', the N stands for the number of characters that are stored. Since 'NCHAR' and 'NVARCHAR' can store Unicode information, they require two bytes of storage per character.
+*ADD TABLEAU DES TAILLES 
+
+###### Right-Sizing Data Types
+When right-sizing data types, a best practice is to analyze whether a data type is the appropriate container for the value that will be stored.
+It is important to ask business questions about the organization’s future direction. The goal of right-sizing is to determine whether the data type is appropriate for the application or business.
+*ADD TABLEAU DES TAILLES
+
+###### Data Pages
+SQL Server uses its own container called a data page to store records on disk. 
+There are 3 types of data pages: in-row data, row-overflow data, and LOB data. All pages have a fixed size of 8KB or 8,192 bytes.
+The 8KB limit affects what can fit in a data page.
+- VARCHAR(8000) and NVARCHAR(4000) use row-overflow data pages.
+- VARCHAR(MAX) and NVARCHAR(MAX) use LOB data pages.
+If a string exceeds the value of a second 8KB data page, SQL Server will create a chain of different pages. This can incur additional storage demands and additional I/O overhead.
