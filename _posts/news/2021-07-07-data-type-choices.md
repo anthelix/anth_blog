@@ -25,13 +25,13 @@ In SQL Server, fixed and variable-length data types have different storage requi
     | DECIMAL | 5-17 bytes | FLOAT | 4-8 bytes 
     | UNIQUEIDENTIFIER | 16 bytes | 
     {: .tablelines}
-    ` `  
+   
 - Variable-width data types always have two extra bytes of overhead. In NCHAR and NVARCHAR, the N stands for the number of characters that are stored. Since NCHAR and NVARCHAR can store Unicode information, they require two bytes of storage per character. 
 
     |---|---|----|----|
     | VARCHAR | n +2 bytes | NVARCHAR | (n * 2) + 2 bytes|
     {: .tablelines}
-    ` `  
+      
 - In 'NCHAR' and 'NVARCHAR', the N stands for the number of characters that are stored. Since 'NCHAR' and 'NVARCHAR' can store Unicode information, they require two bytes of storage per character.
 
 
