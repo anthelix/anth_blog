@@ -81,6 +81,9 @@ div.language-sql.highlighter-rouge {
   td {
     border: 1px solid $table-border-color;
   }
+  &:after {
+    margin-bottom: 2em;
+  }
 }
 
 #bar {
@@ -165,7 +168,6 @@ div.language-sql.highlighter-rouge {
     }
   }
   .timeline {
-      
       &:before {          
           background: $theme-color; /* Old browsers */
           background: -moz-linear-gradient(top,  $theme-color 1%, $theme-color 75%, $theme-content-bg 100%); /* FF3.6+ */
@@ -175,10 +177,7 @@ div.language-sql.highlighter-rouge {
           background: -ms-linear-gradient(top,  $theme-color 1%, $theme-color 75%, $theme-content-bg 100%); /* IE10+ */
           background: linear-gradient(to bottom,  $theme-color 1%, $theme-color 75%, $theme-content-bg 100%); /* W3C */
           filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$theme-1-color', endColorstr='$theme-1-content-bg',GradientType=0 ); /* IE6-9 */
-        }
-      &:after {
-          margin-bottom: 2em;
-      } 
+        } 
   }
 }
 
