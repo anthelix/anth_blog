@@ -9,7 +9,7 @@ categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
 ---
 
-The ability of data characteristics to meet the internal (management, decision making) and external requirements (regulations) of an organization is Data Quality(DQ). 
+The ability of data characteristics to meet the internal (management, decision making) and external requirements (regulations) of an organization is Data Quality (DQ). 
 Data Quality management is done through 3 areas,
 - Data Governance
   . to supervise the quality, the updating, the procedures set up to maintain the data quality

@@ -9,7 +9,7 @@ categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
 ---
 
-Right-sizing can result in tremendous storage savings, which can lead to faster database performance. If ypu read my previous notes about [string type]({% post_url 2021-06-07-string-a-long %}), [numric type]({% post_url 2021-06-08-numbers %}) and [money type]({% post_url 2021-06-09-something-ney-money %}), you have already seen that this is a tricky subject.
+Right-sizing can result in tremendous storage savings, which can lead to faster database performance. If you read my previous notes about [string type]({% post_url news/2021-06-07-string-a-long %}), [numric type]({% post_url news/2021-06-08-numbers %}) and [money type]({% post_url news/2021-06-09-something-ney-money %}), you have already seen that this is a tricky subject.
 SQL Server data page size limit of 8 KB and conditions that can cause page splitting. 
 
 ######  Fixed and Variable-Length Data Types
