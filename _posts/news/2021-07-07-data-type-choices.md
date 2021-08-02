@@ -41,16 +41,16 @@ In SQL Server, fixed and variable-length data types have different storage requi
 When right-sizing data types, a best practice is to analyze whether a data type is the appropriate container for the value that will be stored.
 It is important to ask business questions about the organization’s future direction. The goal of right-sizing is to determine whether the data type is appropriate for the application or business.
 
-| Data Type | Storage(Bytes) | Value Storage |
-|---|:---:|---|
-| TINYINT | 1 | 0 to 255 |
-| SMALLINT | 2 | -32 768 to 32 767 |
-| INT | 4 | -2 147 483 648 to 2 147  483 647  |
-| BIGINT | 8  | -9 223 372 036 854 775 808 to 9 223 372 036 854 775 807   |
-| DATE | 3 | 0001-01-01 to 9999-12-31 |
-| SMALLDATETIME | 4 | 1900-01-01 00:00:00 to 2079-06-06 23:59:59 |
-| DATETIME | 8 | 1753-01-01 00:00:00.000 to 9999-12-31 23-59-59.997 |
-{: .tablelines}
+    | Data Type | Storage(Bytes) | Value Storage |
+    |---|:---:|---|
+    | TINYINT | 1 | 0 to 255 |
+    | SMALLINT | 2 | -32 768 to 32 767 |
+    | INT | 4 | -2 147 483 648 to 2 147  483 647  |
+    | BIGINT | 8  | -9 223 372 036 854 775 808 to 9 223 372 036 854 775 807   |
+    | DATE | 3 | 0001-01-01 to 9999-12-31 |
+    | SMALLDATETIME | 4 | 1900-01-01 00:00:00 to 2079-06-06 23:59:59 |
+    | DATETIME | 8 | 1753-01-01 00:00:00.000 to 9999-12-31 23-59-59.997 |
+    {: .tablelines}
 
 ###### Data Pages
 SQL Server uses its own container called a data page to store records on disk. 
