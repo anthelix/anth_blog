@@ -14,13 +14,13 @@ Stored procedures can also be cached. The main purpose of SP's to hide direct SQ
 It's stored as a  named object in the SQL Server Database.  
 Just call it to execute it! SP accept parameters in input too., and can return output parameters.   
 ```sql
-// create
+-- create
 CREATE PROCEDURE procedure_name
 AS
 sql_statement
 GO;
 
-// Execute
+-- Execute
 EXEC procedure_name;
 ```
 And as a reminder, an example with parameters:
