@@ -8,15 +8,17 @@ date: 2021-07-15
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
 ---
-
-Addresses, Names, Country Names, Phone Numbers, Company Names Emails ... Do you always have well-formated data? No matter what my machine learning, data engineering or data analyst projects are, there are always different formats for the same type. <FR, fr, FRA, Frce, ... France> 
-The effects on your organizations are:
+FR, fr, FRA, Frce, ... France !  
+Addresses, Names, Country Names, Phone Numbers, Company Names Emails ... Do you always have well-formated data? No matter what my machine learning, data engineering or data analyst projects are, there are always different formats for the same type.    
+ 
+The effects on your organization are:
 - Multi-platform/application inefficiency or even failure;
 - Poor lead scoring, segmentation, and routing; 
 - Increased manual processes
 - Duplication of records
 - Poor marketing attribution.
-Data standardization makes the data into a single usable format from different sources to enable users to process and analyze it.
+Data standardization makes the data into a single usable format from different sources to enable users to process and analyze it.   
+
 The benefits are: 
 - Seamless and efficient flow of valuable data through your sales and marketing applications and platforms
 - Improved segmentation, lead scoring and routing
@@ -34,4 +36,4 @@ How to do it? Quite simply.
   - Consider the impact of non-formatted data on a loss of income, a disruption of business processes, causes of non-useful data, a lower user productivity, a lack of user adoption? 
 - Put your strategy into action
 - Maintain standardization
-  - organizations evolve, data too. The standardization methods should continue to do the job. 
+  - Organizations evolve, data too. The standardization methods should continue to do the job. 
