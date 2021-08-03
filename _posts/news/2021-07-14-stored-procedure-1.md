@@ -1,8 +1,8 @@
 ---
 layout: postlog
-title: "What's Stored Procedure? "
-subtitle: " •  • "
-urlsong: 
+title: "What's Stored Procedure?"
+subtitle: "Fill It Still • Portugal.The Man • 2017"
+urlsong: https://open.spotify.com/track/6QgjcU0zLnzq5OrUoSZ3OK?si=24e59b749e894c20
 tag: T-Sql
 date: 2021-07-14
 categories: blog
