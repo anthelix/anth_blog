@@ -1,3 +1,6 @@
+[![Image of github_profile_view_counter](https://github.com/anthelix/github_profile_view_counter/blob/master/svg/262562670/badge.svg)](https://github.com/anthelix/github_profile_view_counter/blob/master/readme/262562670/week.md)
+
+
 # anthelix.github.io
 
 Project site for my github projects, beginning with the Udacity Nanodegree ( spring 2020 )
