@@ -1,7 +1,7 @@
 [![Image of github_profile_view_counter](https://github.com/anthelix/github_profile_view_counter/blob/master/svg/262562670/badge.svg)](https://github.com/anthelix/github_profile_view_counter/blob/master/readme/262562670/week.md)
 
 
-# anthelix.github.io # anth_blog [<img alt="Image of github_profile_view_counter" src="https://github.com/anthelix/github_profile_view_counter/blob/master/graph/262562670/small/year.png" height="20">](https://github.com/anthelix/github_profile_view_counter/blob/master/readme/262562670/year.md)
+# anthelix.github.io [<img alt="Image of github_profile_view_counter" src="https://github.com/anthelix/github_profile_view_counter/blob/master/graph/262562670/small/year.png" height="20">](https://github.com/anthelix/github_profile_view_counter/blob/master/readme/262562670/year.md)
 
 
 Project site for my github projects, beginning with the Udacity Nanodegree ( spring 2020 )
