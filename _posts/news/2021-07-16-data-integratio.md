@@ -1,9 +1,9 @@
 ---
 layout: postlog
 title: "Garbage in, garbage out!"
-subtitle: "Lucia di Lammermoor de Donizetti • Cold Song • "
-urlsong: https://open.spotify.com/track/5cktrIlEYBuwY6e7RXWKPg?si=4d9e4f9061374ad0
-tag: data
+subtitle: "Six gnossiennes: Gnosienne 1, lent • Erik Satie • 1893"
+urlsong: https://open.spotify.com/track/7oHyeqVuVoBQVkzNoNRoRC?si=974a4264c15f4ad4
+tag: Data
 date: 2021-07-16
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
