@@ -12,7 +12,7 @@ permalink: /:categories/:year/:month/:day/:title.html
 If you have an SQL query which you often need, Stored Prodecure is what you are looking for.  It's a piece of code that we can save, then reused over and over again.  
 Stored procedures can also be cached. The main purpose of SP's to hide direct SQL queries from the code and improve performance of database operations such as select, update, and delete data. It can  be easily modified!   
 It's stored as a  named object in the SQL Server Database.  
-Just call it to execute it! SP accept parameters in input too., and can return output parameters.   
+Just call it to execute it! SP accept parameters in input too, and can return output parameters.   
 ```sql
 -- create
 CREATE PROCEDURE procedure_name
