@@ -8,7 +8,7 @@ date: 2021-06-14
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
 ---
-The word 'party' is derived from business and legal relationships and typically refers to an individual or organisation.Naturally, first party data will be your data. Your data might very well be shared with someone else, such as a second or third party.   
+The word `party` is derived from business and legal relationships and typically refers to an individual or organisation. Naturally, first party data will be your data. Your data might very well be shared with someone else, such as a second or third party.   
 It's helps to explain relationships that are important to a record.It's an improved version of these relational database where each entity is linked to another by its relattionship. 
 In Data Models, a Party can be a Personn or an organization. It's the superioir entity and the observation point relative to the reffering organization. 
 

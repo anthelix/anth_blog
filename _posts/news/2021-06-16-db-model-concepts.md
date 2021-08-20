@@ -21,10 +21,10 @@ Historically, three types of database model groups are observed.
     - Entities, defined as tables that hold specific information (data)
     - Relationships, defined as the associations or interactions between entities
   - optimized for addition, updating and deletion of data in a real-time Online Transaction System.
-  - Between 'entity', there are 'relationships and 'entity' have 'attribute'.
+  - Between `entity`, there are `relationships` and `entity` have `attributes`.
 
 - **Dimensional model**
-  - developed by Ralph Kimball and consists of “fact” and “dimension” tables.
+  - developed by Ralph Kimball and consists of `fact` and `dimension` tables.
   - designed to read, summarize, analyze numeric information like values, balances, counts, weights
   - Steps of Dimensional Modelling:
     1. Identify Business Process WHY?
