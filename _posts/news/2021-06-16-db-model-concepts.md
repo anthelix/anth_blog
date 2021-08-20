@@ -15,7 +15,7 @@ Historically, three types of database model groups are observed.
 - **Hierarchical model**,  only one parent, very slow
 - **Network model**, multiple parent
 
-### Relational Data Models
+#### Relational Data Models
 - **Entity-relationship model**
   - based on two concepts:
     - Entities, defined as tables that hold specific information (data)
@@ -33,7 +33,7 @@ Historically, three types of database model groups are observed.
     4. Identify Facts WHAT?
     5. Build Start (the schema)
    
-### Post-relational Data Models
+#### Post-relational Data Models
 Here the two ones that I meet most often in my research 
 - **Graph Model**
   - Database designed to treat the relationships between data as equally important to the data itself. It is intended to hold data without constricting it to a pre-defined model. 
