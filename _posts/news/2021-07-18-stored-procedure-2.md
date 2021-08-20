@@ -45,7 +45,25 @@ To rename a stored procedure using T-SQL, use system stored procedure `sp_rename
 ```sql
 sp_rename 'GetProductDesc','GetProductDesc_new'
 ```
-
+With while and Begin
+```sql
+CREATE PROCEDURE NOCountTest(@N INT)
+  AS
+       DECLARE @NumberofRecords INT;
+       SET @NumberofRecords = 0;
+       WHILE @NumberofRecords < @N
+           BEGIN
+               SET @NumberofRecords = @NumberofRecords + 1;
+           END;
+      GO;
+```
+Note – It is possible to create stored procedures that reference nonexistent tables. This feature allows you to debug procedure code without creating the underlying tables first, or even connecting to the target server.
+```sql
+CREATE PROCEDURE increase_budget 
+	@percent INT(5)
+	AS UPDATE project
+		SET budget = budget + budget*@percent/100;
+```
 ##### Create output parameters
 First, create the query with the output variable
  ```sql
