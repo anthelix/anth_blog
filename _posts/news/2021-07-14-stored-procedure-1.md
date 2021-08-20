@@ -17,19 +17,18 @@ Just call it to execute it! SP accept parameters in input too, and can return ou
 -- create
 CREATE PROCEDURE procedure_name
 AS
-sql_statement
+    sql_statement
 GO;
 
 -- Execute
 EXEC procedure_name;
 ```
-And as a reminder, an example with parameters:
-```sql
-CREATE PROCEDURE SelectAllCustomers @City nvarchar(30), @PostalCode nvarchar(10)
-AS
-SELECT * FROM Customers WHERE City = @City AND PostalCode = @PostalCode
-GO;
 
-EXEC SelectAllCustomers @City = 'Paris', @PostalCode = '75014';
+With `ALTER PROCEDURE`, it's possible to change the query. Copy the query, add the modifications and done! You can execute the new SP.
+
+To rename a stored procedure using T-SQL, use system stored procedure `sp_rename`.
+```sql
+sp_rename 'SelectAllCustomers','SelectAllCustomers_new'
 ```
 
+To delete a procedure, very easy to `DROP PROCEDURE SelectAllCustomers`
