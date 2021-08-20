@@ -1,6 +1,6 @@
 ---
 layout: postlog
-title: "What is sql server?"
+title: "What is Sql Server?"
 subtitle: "Saudosismo • Gal Costa • 1969"
 urlsong: https://open.spotify.com/track/6rMp4peGqo1zaT8ErytHgd?si=83a4018ab67049e1
 tag: sql

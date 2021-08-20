@@ -1,10 +1,10 @@
 ---
 layout: postlog
-title: "an Introduction to Informatica"
+title: "An Introduction to Informatica"
 subtitle: " I Need You • Jon Batiste • 2021"
 urlsong: https://open.spotify.com/track/0Rz33FuYUwWW0pcw2v9gI9?si=3788348328004b00
 tag: Data
-date: 2021-06-16
+date: 2021-06-18
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
 ---

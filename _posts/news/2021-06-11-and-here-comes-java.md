@@ -1,6 +1,6 @@
 ---
 layout: postlog
-title: "And here come's Java"
+title: "And Here Come's Java"
 subtitle: "La Javanaise • Serge Gainsbourg • 1963"
 urlsong: https://www.lyrics.com/lyric/3543905/Serge+Gainsbourg
 tag: Java

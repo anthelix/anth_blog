@@ -1,6 +1,6 @@
 ---
 layout: postlog
-title: "Data and more Data (in french)"
+title: "Data and More Data (in french)"
 subtitle:
 tag: Analyse
 date: 2020-09-15

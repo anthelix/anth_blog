@@ -1,6 +1,6 @@
 ---
 layout: postlog
-title: "OOP concepts"
+title: "OOP Concepts"
 subtitle: "test"
 subtitle: "Uncomforatble • Sault • 2020 "
 urlsong: https://open.spotify.com/track/46KSR0qvasoT8Ek92IPFby?si=443837f32ec34cf2

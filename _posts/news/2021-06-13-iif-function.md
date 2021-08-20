@@ -1,6 +1,6 @@
 ---
 layout: postlog
-title: "Life is not IIF()"
+title: "Life Is Not IIF()"
 subtitle: "Talk To Me • Y'Akoto • 2012"
 urlsong: https://open.spotify.com/track/1EaisEqFzeA0O50rqnrPVG?si=22ecde7daad24dd6
 tag: T-Sql
