@@ -3,7 +3,7 @@ layout: postlog
 title: "Data Party Model"
 subtitle: "Flowing • Lucas Delphy • 2020"
 urlsong: https://open.spotify.com/track/06G5MnuMA3cLbNwjFs8zIS?si=e82b2f51be8b4b08
-tag: Data
+tag: Database
 date: 2021-06-14
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html

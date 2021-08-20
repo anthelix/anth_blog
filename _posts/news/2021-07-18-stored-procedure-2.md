@@ -1,6 +1,6 @@
 ---
 layout: postlog
-title: "Stored Pocedure with parameter"
+title: "Stored Pocedure With Parameter"
 subtitle: "You Worry Me • Nathaniel Rateliff & The Night Sweats • 2018"
 urlsong: https://open.spotify.com/track/0gqxf8wrEkewjmZB7OT4mL?si=5cf5a82726404bbd
 tag: T-Sql

@@ -3,7 +3,7 @@ layout: postlog
 title: "Database Model Concepts"
 subtitle: "This Is What You Did • This Is The Kit • 2020"
 urlsong: https://open.spotify.com/track/35e4UTDLUpqOzGqjWz3AoT?si=5bf61ebd010f4460
-tag: Data
+tag: Database
 date: 2021-06-16
 categories: blog
 permalink: /:categories/:year/:month/:day/:title.html
