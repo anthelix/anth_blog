@@ -31,14 +31,15 @@ EXEC SelectAllCustomers @City = 'Marseille', @Age >= 20;
 
 ```
 ##### Tips
-- With multiple parameters, it is better using named parameters. With one or two parameters, no need to add the name `EXEC SelectAllCustomers 'Marseille', 20`
-- Do you whant default parameters value?
+With multiple parameters, it is better using named parameters. With one or two parameters, no need to add the name `EXEC SelectAllCustomers 'Marseille', 20`.   
+Do you whant default parameters value?
+  
 ```sql
 CREATE PROCEDURE SelectAllCustomers 
     -- declare the variables name to fill with values
     @City nvarchar(30), @Age tinyint =20
 ```
-With `ALTER PROCEDURE`, it's possible to change the query. Copy the query, add the modifications and done! You can execute the new SP.
+With `ALTER PROCEDURE`, it's possible to change the query. Copy the query, add the modifications and done! You can execute the new SP.   
 
 To rename a stored procedure using T-SQL, use system stored procedure `sp_rename`.
 ```sql

@@ -1,6 +1,6 @@
 ---
 layout: postlog
-title: "An Introduction to Informatica"
+title: "An Introduction to Informatica Software"
 subtitle: " I Need You • Jon Batiste • 2021"
 urlsong: https://open.spotify.com/track/0Rz33FuYUwWW0pcw2v9gI9?si=3788348328004b00
 tag: Data
@@ -16,7 +16,7 @@ Informatica Powercenter ETL/Data Integration tool is the most widely used tool.
 Once the Source system is connected and the source data being captured, Informatica supports several out of the box transformation functionalities to transform the data, route, and process the configured and connected data to the target systems.
 
 
-##### Informatica MDM:
+##### Informatica MDM
 Business data and Information Technology allow to ensure the uniformity, accuracy, stewardship, semantic consistency and accountability of the organization shared master data assets.   
 It providdes a single view of the data, a 360-degree view of the relationships and a complete view of all the interactions. 
 
